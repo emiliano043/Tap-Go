@@ -1,0 +1,25 @@
+﻿@page
+@model dynamic
+@{
+    Layout = null;
+    ViewData["Title"] = "Login";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Login - TapAndGo</title>
+    <link rel="stylesheet" href="~/css/styles.css" />
+</head>
+<body>
+    <h1>Login</h1>
+    <form id="loginForm">
+        <input type="email" id="email" placeholder="Correo" required><br>
+        <input type="password" id="password" placeholder="Contraseña" required><br>
+        <button type="submit">Ingresar</button>
+    </form>
+    <p id="error" style="color:red;"></p>
+    <script src="~/js/auth.js"></script>
+</body>
+</html>
