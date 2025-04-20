@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "28oGao0Z0q41yKJeme0z4SckRXTSRC4/GU2qRxaxbcs=",
+  "Source": "TapAndGo.Api",
+  "BasePath": "_content/TapAndGo.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

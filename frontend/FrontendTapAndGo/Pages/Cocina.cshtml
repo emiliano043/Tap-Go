@@ -1,0 +1,45 @@
+﻿@page
+@model dynamic
+@{
+    Layout = "~/Pages/Shared/_LayoutCocina.cshtml";
+    ViewData["Title"] = "Cocina";
+    <link rel="stylesheet" href="~/css/admin.css" />
+}
+
+<script src="~/js/auth-guard.js"></script>
+<script src="~/js/api.js"></script>
+<script src="~/js/cocina.js"></script>
+
+<div class="page-container">
+
+
+    <h2>Órdenes en cola</h2>
+
+@*     <div class="filtros">
+        <h3>Filtrar pedidos</h3>
+        <input type="text" id="filtro-cliente" placeholder="Cliente" />
+        <input type="date" id="filtro-desde" />
+        <input type="date" id="filtro-hasta" />
+        <input type="number" id="filtro-minTotal" placeholder="Total mínimo" />
+        <input type="number" id="filtro-maxTotal" placeholder="Total máximo" />
+        <button onclick="aplicarFiltros()">Buscar</button>
+    </div> *@
+
+
+    <div class="neon-marquee-container">
+        <div class="neon-marquee" id="neonCarrusel"></div>
+    </div>
+
+    <h2>Pedidos en cola <span id="contador-pedidos">(0)</span></h2>
+
+    <div id="pedidos-container"></div>
+
+
+    <!-- Botón de activar sonido -->
+    <button id="activar-sonido" style="margin-top:20px;">Activar sonido</button>
+    <button id="toggle-sonido" style="margin-left:10px; display:none;">Silenciar</button>
+
+    <audio id="sonido-alerta" src="/sound/ding.mp3" preload="auto"></audio>
+
+
+</div>

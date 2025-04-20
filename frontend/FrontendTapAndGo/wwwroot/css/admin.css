@@ -1,0 +1,134 @@
+﻿body {
+}
+
+/*-----------------------------------------Breadcrumb + Fecha------------------------------------*/
+
+.breadcrumb-container {
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    box-shadow: 0 7px 7px rgba(0,0,0,0.2);
+}
+
+.breadcrumb a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.breadcrumb a:hover {
+    color: #1c51c6;
+}
+
+.fecha-actual {
+    font-weight: bold;
+}
+
+a.posicion-actual {
+    color: #1c51c6 !important;
+    font-weight: bold;
+}
+
+
+/*-----------------------------------------Usuario info------------------------------------*/
+
+.campo-no-usuario {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-size: 14px;
+    border-right: outset 3px black;
+    padding-right: 20px;
+}
+
+.campo-no-usuario span {
+    line-height: 1.2;
+    text-align: right;
+    display: inline-block;
+}
+
+.campo-no-usuario strong {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.user-info .campo {
+    display: flex;
+    flex-direction: column;
+    min-width: 130px;
+}
+
+.user-info .campo span {
+    font-size: 14px;
+}
+
+.user-info .campo strong {
+    font-size: 18px;
+}
+
+.camposcentrados {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+
+
+.user-info .fecha-actual {
+    text-align: left;
+    margin-left: 15px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+thead {
+    background-color: #f4f4f4;
+}
+
+/*-----------------------------------------CHECK BOX------------------------------------*/
+
+.checkbox-productos {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+
+/*-----------------------------------------BOTONES------------------------------------*/
+
+.btn {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    box-shadow: 0 7px 7px rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+.btn img {
+    display: block;
+    height: 50px;
+    width: 150px;
+}
