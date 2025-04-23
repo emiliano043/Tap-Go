@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Carrito</title>
+  <link rel="stylesheet" href="css/stylesCar.css" />
+</head>
+<body>    
+
+    <div class="header-bar">
+        <h1 class="titulo">CARRITO</h1>
+        <button class="B_atras">ATRÁS</button>
+    </div>
+      
+
+  <section class="main">
+  <!--barra lateral-->
+    <div class="barra">
+      <button>Inicio</button>
+      <button class="ham">Hamburguesas</button>
+      <button onclick ="location.href='adimentos.html'">Adimentos</button>
+      <button class="activo">Carrito</button>
+      <button>Pago</button>
+    </div>
+
+    <div class="contenido">
+
+      <!-- Producto 1 -->
+      <div class="producto">
+        <img src="hamburguesa1.png" alt="Hamburguesa Doble Carne" />
+        <div class="info">
+          <p class="nombre">Hamburguesa Doble Carne</p>
+          <p class="precio">$121</p>
+          <div class="cantidad">
+            <button>-</button>
+            <span>1</span>
+            <button>+</button>
+            <button class="eliminar">🗑️</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Producto 2 -->
+      <div class="producto">
+        <img src="hamburguesa2.png" alt="Hamburguesa Vegana" />
+        <div class="info">
+          <p class="nombre">Hamburguesa Vegana</p>
+          <p class="precio">$125</p>
+          <div class="cantidad">
+            <button>-</button>
+            <span>1</span>
+            <button>+</button>
+            <button class="eliminar">🗑️</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Total y botones -->
+      <div class="acciones">
+        <p><strong>TOTAL:</strong> <span class="total">$236</span></p>
+        <button class="finalizar">FINALIZAR EL PEDIDO</button>
+        <button class="volver">VOLVER AL MENU</button>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
