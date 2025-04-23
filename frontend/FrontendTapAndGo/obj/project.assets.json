@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Beliel\\Desktop\\Proyecto Tap And Go\\frontend\\FrontendTapAndGo\\FrontendTapAndGo.csproj",
+      "projectUniqueName": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\FrontendTapAndGo.csproj",
       "projectName": "FrontendTapAndGo",
-      "projectPath": "C:\\Users\\Beliel\\Desktop\\Proyecto Tap And Go\\frontend\\FrontendTapAndGo\\FrontendTapAndGo.csproj",
+      "projectPath": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\FrontendTapAndGo.csproj",
       "packagesPath": "C:\\Users\\Beliel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Beliel\\Desktop\\Proyecto Tap And Go\\frontend\\FrontendTapAndGo\\obj\\",
+      "outputPath": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

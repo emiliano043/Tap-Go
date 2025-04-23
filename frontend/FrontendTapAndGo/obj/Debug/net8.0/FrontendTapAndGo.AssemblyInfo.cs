@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FrontendTapAndGo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+84b2ac1f4f0ac3d3edba99abc6a03080dec6f03e")]
 [assembly: System.Reflection.AssemblyProductAttribute("FrontendTapAndGo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FrontendTapAndGo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

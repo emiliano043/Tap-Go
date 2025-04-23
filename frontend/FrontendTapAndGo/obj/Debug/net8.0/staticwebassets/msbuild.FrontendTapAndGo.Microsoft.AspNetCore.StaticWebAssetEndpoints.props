@@ -180,17 +180,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-pdJmBNrX70kUuaVg4TH30htKJGUgGVeEV7Sn1H2rRdU="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1040"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022pdJmBNrX70kUuaVg4TH30htKJGUgGVeEV7Sn1H2rRdU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 14 Apr 2025 16:28:13 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/FrontendTapAndGo/js/auth.8koo2eoq7e.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\auth.js'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"8koo2eoq7e"},{"Name":"integrity","Value":"sha256-WMzEZoL8vDVYiwbVhNVlxHy077BJE1ls0jyYmuEug\u002B0="},{"Name":"label","Value":"_content/FrontendTapAndGo/js/auth.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3758"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022WMzEZoL8vDVYiwbVhNVlxHy077BJE1ls0jyYmuEug\u002B0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 20 Apr 2025 02:12:49 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/FrontendTapAndGo/js/auth.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\auth.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-WMzEZoL8vDVYiwbVhNVlxHy077BJE1ls0jyYmuEug\u002B0="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3758"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022WMzEZoL8vDVYiwbVhNVlxHy077BJE1ls0jyYmuEug\u002B0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 20 Apr 2025 02:12:49 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-xKv5/xpl15YRg2466HzomXzInLjpEbXUGtm79WgnmME="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1205"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022xKv5/xpl15YRg2466HzomXzInLjpEbXUGtm79WgnmME=\u0022"},{"Name":"Last-Modified","Value":"Sun, 20 Apr 2025 03:32:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/FrontendTapAndGo/js/auth.o3k4d048nh.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\auth.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"o3k4d048nh"},{"Name":"integrity","Value":"sha256-xKv5/xpl15YRg2466HzomXzInLjpEbXUGtm79WgnmME="},{"Name":"label","Value":"_content/FrontendTapAndGo/js/auth.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1205"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022xKv5/xpl15YRg2466HzomXzInLjpEbXUGtm79WgnmME=\u0022"},{"Name":"Last-Modified","Value":"Sun, 20 Apr 2025 03:32:46 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/FrontendTapAndGo/js/cliente.390h6rgfn8.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\cliente.js'))</AssetFile>

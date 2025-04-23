@@ -1,25 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Beliel\\Desktop\\Proyecto Tap And Go\\frontend\\FrontendTapAndGo\\",
+  "WorkspaceRootPath": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\beliel\\desktop\\proyecto tap and go\\frontend\\frontendtapandgo\\wwwroot\\js\\auth.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\beliel\\desktop\\kubernetes\\tap-go\\frontend\\frontendtapandgo\\pages\\index1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:pages\\index1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\beliel\\desktop\\kubernetes\\tap-go\\frontend\\frontendtapandgo\\wwwroot\\js\\auth.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:wwwroot\\js\\auth.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\beliel\\desktop\\proyecto tap and go\\frontend\\frontendtapandgo\\pages\\shared\\_layoutcocina.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\beliel\\desktop\\kubernetes\\tap-go\\frontend\\frontendtapandgo\\pages\\shared\\_layoutcocina.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:pages\\shared\\_layoutcocina.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\beliel\\desktop\\proyecto tap and go\\frontend\\frontendtapandgo\\wwwroot\\css\\cocina.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\beliel\\desktop\\kubernetes\\tap-go\\frontend\\frontendtapandgo\\wwwroot\\css\\cocina.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:wwwroot\\css\\cocina.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\beliel\\desktop\\proyecto tap and go\\frontend\\frontendtapandgo\\pages\\cocina.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\beliel\\desktop\\kubernetes\\tap-go\\frontend\\frontendtapandgo\\pages\\cocina.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:pages\\cocina.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\beliel\\desktop\\proyecto tap and go\\frontend\\frontendtapandgo\\wwwroot\\js\\cocina.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\beliel\\desktop\\kubernetes\\tap-go\\frontend\\frontendtapandgo\\wwwroot\\js\\cocina.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:wwwroot\\js\\cocina.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,24 +42,36 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_LayoutCocina.cshtml",
-              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\Proyecto Tap And Go\\frontend\\FrontendTapAndGo\\Pages\\Shared\\_LayoutCocina.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Shared\\_LayoutCocina.cshtml",
-              "ToolTip": "C:\\Users\\Beliel\\Desktop\\Proyecto Tap And Go\\frontend\\FrontendTapAndGo\\Pages\\Shared\\_LayoutCocina.cshtml",
-              "RelativeToolTip": "Pages\\Shared\\_LayoutCocina.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA3AAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Index1.cshtml",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\Pages\\Index1.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Index1.cshtml",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\Pages\\Index1.cshtml",
+              "RelativeToolTip": "Pages\\Index1.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-20T03:26:19.779Z",
+              "WhenOpened": "2025-04-23T21:19:11.632Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "_LayoutCocina.cshtml",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\Pages\\Shared\\_LayoutCocina.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_LayoutCocina.cshtml",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\Pages\\Shared\\_LayoutCocina.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_LayoutCocina.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-20T03:26:19.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "auth.js",
-              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\Proyecto Tap And Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\auth.js",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\auth.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\auth.js",
-              "ToolTip": "C:\\Users\\Beliel\\Desktop\\Proyecto Tap And Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\auth.js",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\auth.js",
               "RelativeToolTip": "wwwroot\\js\\auth.js",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvxYAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
@@ -64,42 +80,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "cocina.css",
-              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\Proyecto Tap And Go\\frontend\\FrontendTapAndGo\\wwwroot\\css\\cocina.css",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\css\\cocina.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\cocina.css",
-              "ToolTip": "C:\\Users\\Beliel\\Desktop\\Proyecto Tap And Go\\frontend\\FrontendTapAndGo\\wwwroot\\css\\cocina.css",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\css\\cocina.css",
               "RelativeToolTip": "wwwroot\\css\\cocina.css",
               "ViewState": "AgIAANYAAAAAAAAAAAAmwN4AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-20T00:06:50.491Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-20T00:06:50.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "cocina.js",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\cocina.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\cocina.js",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\cocina.js",
+              "RelativeToolTip": "wwwroot\\js\\cocina.js",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAQwL0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-19T23:58:36.606Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "cocina.js",
-              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\Proyecto Tap And Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\cocina.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\cocina.js",
-              "ToolTip": "C:\\Users\\Beliel\\Desktop\\Proyecto Tap And Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\cocina.js",
-              "RelativeToolTip": "wwwroot\\js\\cocina.js",
-              "ViewState": "AgIAAJoAAAAAAAAAAAAQwL0AAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-04-19T23:58:36.606Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Cocina.cshtml",
-              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\Proyecto Tap And Go\\frontend\\FrontendTapAndGo\\Pages\\Cocina.cshtml",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\Pages\\Cocina.cshtml",
               "RelativeDocumentMoniker": "Pages\\Cocina.cshtml",
-              "ToolTip": "C:\\Users\\Beliel\\Desktop\\Proyecto Tap And Go\\frontend\\FrontendTapAndGo\\Pages\\Cocina.cshtml",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\Pages\\Cocina.cshtml",
               "RelativeToolTip": "Pages\\Cocina.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-20T00:01:33.587Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-20T00:01:33.587Z"
             }
           ]
         }
