@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\css\\cocina.css"
     },
     {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\css\\logincliente.css",
+      "PackagePath": "staticwebassets\\css\\logincliente.css"
+    },
+    {
       "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

@@ -3,6 +3,7 @@
 @{
     Layout = null;
     ViewData["Title"] = "Login";
+    <link rel="stylesheet" href="~/css/login.css" />
 }
 
 <!DOCTYPE html>
@@ -10,15 +11,38 @@
 <head>
     <meta charset="UTF-8">
     <title>Login - TapAndGo</title>
-    <link rel="stylesheet" href="~/css/logincliente.css" />
+    <link rel="stylesheet" href="~/css/styles.css" />
 </head>
+
 <body>
-    <h1>Bienvenido</h1>
-    <form id="loginForm">
-        <input type="name" id="nombre" placeholder="Escriba su nombre" required><br>
-        <button type="submit">Ingresar</button>
-    </form>
-    <p id="error" style="color:red;"></p>
-    <script src="~/js/auth.js"></script>
+    <div class="Wrapper">
+
+        <div class="Card">
+            <div class="Card-Image"></div>
+            <div class="loginform">
+
+                <h1>Login</h1>
+                <form id="loginForm">
+                    <input type="email" id="email" placeholder="Correo" required><br>
+                    <input type="password" id="password" placeholder="Contraseña" required><br>
+                    <button type="submit">Ingresar</button>
+                </form>
+                <p id="error" style="color:red;"></p>
+                <script src="~/js/auth.js"></script>
+
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+
+
 </body>
+
 </html>

@@ -1,5 +1,6 @@
 wwwroot\css\admin.css
 wwwroot\css\cocina.css
+wwwroot\css\logincliente.css
 wwwroot\css\site.css
 wwwroot\css\styles.css
 wwwroot\favicon.ico
