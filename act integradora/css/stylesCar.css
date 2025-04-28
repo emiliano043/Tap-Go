@@ -1,0 +1,165 @@
+body {
+    background-color: rgb(240,150,50);
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  .titulo {
+    background-color: rgb(240,150,50);
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    padding: 15px 0;
+  }
+  
+  .main {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .barra {
+    background-color: rgb(255,228,188);
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  
+  .barra button {
+    margin: 10px 0;
+    width: 80px;
+    padding: 10px;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .barra .activo {
+    background-color: rgb(240,150,50);
+    color: white;
+    font-weight: bold;
+  }
+  
+  .contenido {
+    flex-grow: 1;
+    background-color: white;
+    padding: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  
+  .producto {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #eee;
+    border-radius: 15px;
+  }
+  
+  .producto img {
+    width: 100px;
+    height: auto;
+    margin-right: 15px;
+    border-radius: 10px;
+  }
+  
+  .info {
+    flex-grow: 1;
+  }
+  
+  .nombre {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 0 5px 0;
+  }
+  
+  .precio {
+    color: rgb(240,150,50);
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  
+  .cantidad {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .cantidad button {
+    padding: 5px 10px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .eliminar {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: red;
+    margin-left: auto;
+  }
+  
+  .acciones {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .total {
+    font-weight: bold;
+    color: rgb(240,150,50);
+  }
+  
+  .finalizar {
+    background-color: rgb(240,150,50);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .volver {
+    background-color: transparent;
+    border: none;
+    margin-top: 10px;
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .ham{
+    font-size: xx-small;
+  }
+
+  .header-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(240,150,50);
+  }
+  
+  .titulo {
+    color: white;
+    font-size: 28px;
+    margin: 0;
+  }
+  
+  .B_atras {
+    background-color: white;
+    color: rgb(240,150,50);
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  

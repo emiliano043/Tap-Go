@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\TapAndGo.Api.props" />
+</Project>
