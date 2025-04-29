@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PagoEfectivo</title>
+  <link rel="stylesheet" href="pagoefectivo.css" />
+</head>
+<body>    
+
+  <div class="page-container">
+
+    <h2 class="titulo-pago">Pago con efectivo</h2>
+
+    <div class="datos-cliente">
+        <p><strong>ID del cliente:</strong> <span id="idCliente">12345</span></p>
+        <p><strong>Nombre del cliente:</strong> <span id="nombreCliente">Juan Pérez</span></p>
+    </div>
+
+    <table class="tabla-productos">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Cantidad</th>
+                <th>Tamaño</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody id="detalleProductos">
+        </tbody>
+    </table>
+
+    <div class="total-pago">
+        <strong>Total:</strong> $<span id="totalPago">0.00</span>
+    </div>
+
+    <div class="mensaje-final">
+        <p>Por favor presente este ticket y pague en caja.</p>
+    </div>
+
+</div>
+
+
+</body>
+</html>
