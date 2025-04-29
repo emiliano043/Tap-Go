@@ -1,0 +1,25 @@
+﻿@page
+@model dynamic
+@{
+    Layout = null;
+    ViewData["Title"] = "MetodoPago";
+    <link rel="stylesheet" href="~/css/elecciones.css" />
+}
+
+<script src="~/js/metodopago.js"></script>
+
+<h2 class="titulo">Seleccione un Método de Pago</h2>
+
+
+<div class="eleccion">
+    <a class="tipo-btn" href="javascript:seleccionarMetodo('efectivo')">
+        <img src="/img/efectivo.png" alt="Botón para pagar con Efectivo" class="icono-btn" />
+        Efectivo
+    </a>
+
+    <a class="tipo-btn" href="javascript:seleccionarMetodo('tarjeta')">
+        <img src="/img/tarjeta.png" alt="Botón para pagar con Tarjeta" class="icono-btn" />
+        Con tarjeta
+    </a>
+</div>
+

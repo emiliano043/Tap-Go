@@ -1,0 +1,17 @@
+﻿@page
+@model dynamic
+@{
+    Layout = "~/Pages/Shared/_LayoutCliente.cshtml";
+    ViewData["Title"] = "Carrito";
+    <link rel="stylesheet" href="~/css/carrito.css" />
+}
+<script src="~/js/carrito.js"></script>
+<script src="~/js/carrito-helper.js"></script>
+
+<div class="contenedor-carrito" id="contenedor-carrito"></div>
+
+
+<div class="acciones-carrito">
+    <h2 id="total-carrito">Total: $0.00</h2>
+    <button onclick="carritoHelper.confirmarCompra()">Confirmar Compra</button>
+</div>

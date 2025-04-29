@@ -9,7 +9,7 @@ window.TapAndGoApi = {
 }
 
 function apiGet(path, token) {
-    return fetch(`http://192.168.1.137:7034/api${path}`, {
+    return fetch(`http://localhost:7034/api${path}`, {
         headers: { Authorization: "Bearer " + token }
     }).then(res => res.json());
 }

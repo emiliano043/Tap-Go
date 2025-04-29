@@ -1,9 +1,9 @@
 ﻿let sonidoActivado = false;
 let pedidosAnteriores = [];
-let carrusel = null; // ✅ definición global
+let carrusel = null; 
 let firmaAnterior = [];
 
-const API_URL = "http://192.168.1.137:7034/api/pedidos";
+const API_URL = "http://localhost:7034/api/pedidos";
 const sonidoNuevoPedido = new Audio("/sound/ding.mp3");
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function cargarPedidos() {
     const token = localStorage.getItem("token");
-    fetch("http://192.168.1.137:7034/api/pedidos", {
+    fetch("http://localhost:7034/api/pedidos", {
         headers: { Authorization: "Bearer " + token }
     })
         .then(res => res.json())
@@ -37,6 +37,7 @@ function renderPedidos(pedidos) {
     pedidos = pedidos.filter(p => p.estado !== "entregado");
 
     const container = document.getElementById("pedidos-container");
+    document.getElementById("contador-pedidos").textContent = `(${pedidos.length})`;
 
     container.innerHTML = pedidos.map(p => {
         let claseEstado = "";
@@ -68,7 +69,7 @@ function renderPedidos(pedidos) {
 function actualizarEstado(id, estado) {
     const token = localStorage.getItem("token");
 
-    fetch(`http://192.168.1.137:7034/api/pedidos/${id}/estado`, {
+    fetch(`http://localhost:7034/api/pedidos/${id}/estado`, {
         method: "PUT",
         headers: {
             "Content-Type": "application/json",
@@ -160,7 +161,7 @@ async function actualizarCarrusel() {
     function marcarEntregado(id) {
     const token = localStorage.getItem("token");
 
-    fetch(`http://192.168.1.137:7034/api/pedidos/${id}/estado`, {
+        fetch(`http://localhost:7034/api/pedidos/${id}/estado`, {
         method: "PUT",
         headers: {
             "Content-Type": "application/json",

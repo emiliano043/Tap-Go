@@ -4,6 +4,8 @@ using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Text;
 using TapAndGo.Api.Data;
+using System.Security.Claims;
+
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -19,7 +21,9 @@ builder.Services.AddCors(options =>
             "http://localhost:5284",           // frontend Razor por HTTP
             "http://192.168.1.137:5284",       // desde otro equipo
             "http://localhost:3000",           // React
-            "http://127.0.0.1:5284"            // navegadores
+            "http://127.0.0.1:5284",           // navegadores
+            "https://tapandgoapi.loca.lt" 
+
         )
         .AllowAnyHeader()
         .AllowAnyMethod();
@@ -36,19 +40,21 @@ builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
     options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-})
-.AddJwtBearer(options =>
+}).AddJwtBearer(options =>
 {
     options.TokenValidationParameters = new TokenValidationParameters
     {
+
         ValidateIssuer = false,
         ValidateAudience = false,
         ValidateLifetime = true,
         ValidateIssuerSigningKey = true,
         IssuerSigningKey = new SymmetricSecurityKey(
-            Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]!))
+            Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]!)),
+        RoleClaimType = ClaimTypes.Role 
     };
 });
+
 
 
 
@@ -99,8 +105,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-app.UseCors(corsPolicy);
+app.UseCors("_tapandgoCors");
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
-app.Run();
+app.Run("http://0.0.0.0:7034");

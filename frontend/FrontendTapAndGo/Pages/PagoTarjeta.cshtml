@@ -1,0 +1,54 @@
+﻿@page
+@model dynamic
+@{
+    Layout = "~/Pages/Shared/_LayoutCliente.cshtml";
+    ViewData["Title"] = "Pago con Tarjeta";
+}
+
+<link rel="stylesheet" href="css/pagotarjeta.css" />
+<script src="~/js/api.js"></script>
+<script src="~/js/ticketpago.js"></script>
+
+<div class="page-container">
+
+    <h2 class="titulo-pago">Pago con tarjeta</h2>
+
+    <div class="datos-cliente">
+        <p><strong>ID del cliente:</strong> <span id="idCliente">12345</span></p>
+        <p><strong>Nombre del cliente:</strong> <span id="nombreCliente">Juan Pérez</span></p>
+    </div>
+
+    <table class="tabla-productos">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Cantidad</th>
+                <th>Tamaño</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody id="detalleProductos">
+            <!-- Productos renderizados aquí -->
+        </tbody>
+    </table>
+
+    <div class="total-pago">
+        <strong>Total:</strong> $<span id="totalPago">0.00</span>
+    </div>
+
+    <div class="acciones-pago">
+        <button class="btn-pagar" onclick="redirigirBanco()">PAGAR</button>
+    </div>
+
+    <div class="mensaje-final">
+        <p>Una vez completado su pago, tome asiento, la orden se enviará de manera automática a la caja.</p>
+    </div>
+
+</div>
+
+<script>
+    function redirigirBanco() {
+        // Simulamos redirección a una página de pago de banco
+        window.location.href = "https://www.bancomer.com/"; // o cualquier URL de prueba
+    }
+</script>

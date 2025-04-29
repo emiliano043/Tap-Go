@@ -1,5 +1,5 @@
 ﻿const token = localStorage.getItem("token");
-const API_BASE_URL = "http://192.168.1.137:7034/api";
+const API_BASE_URL = "http://localhost:7034/api";
 
 if (!token) {
     window.location.href = "/Login";

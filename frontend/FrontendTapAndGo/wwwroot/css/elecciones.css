@@ -1,0 +1,75 @@
+﻿body {
+    background-color: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo {
+    color: rgb(240,150,50);
+    font-size: 48px;
+    margin-top: 55px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.eleccion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 60px;
+}
+
+.eleccion a {
+    text-decoration: none;
+    color: white;
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    border: none;
+    background-color: rgb(240,150,50);
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+.eleccion a:hover img {
+    width: 50px;
+    height: 50px;
+    transform: scale(1.2) rotate(10deg);
+}
+
+
+/* Íconos */
+.icono-btn {
+    width: 70px;
+    height: 70px;
+    transition: transform 0.3s ease;
+}
+
+.barra:hover {
+    overflow-y: auto;
+}
+
+
+/* Hover en los enlaces */
+.eleccion a:hover {
+    background-color: rgb(240,150,50);
+    color: black;
+    transform: scale(1.05);
+}
+

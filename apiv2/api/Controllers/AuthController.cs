@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
@@ -165,4 +166,51 @@ public class AuthController : ControllerBase
     }
 
 
+    [HttpPost("cliente")]
+    public IActionResult LoginCliente([FromBody] LoginClienteDto dto)
+    {
+        if (string.IsNullOrWhiteSpace(dto.Nombre))
+            return BadRequest("El nombre es obligatorio.");
+
+        // Buscar cliente existente
+        var cliente = _context.Clientes.FirstOrDefault(c => c.Nombre == dto.Nombre);
+
+        if (cliente == null)
+        {
+            // Si no existe, lo creamos
+            cliente = new Cliente { Nombre = dto.Nombre, FechaRegistro = DateTime.UtcNow };
+            _context.Clientes.Add(cliente);
+            _context.SaveChanges();
+        }
+
+        // Crear token
+        var tokenHandler = new JwtSecurityTokenHandler();
+        var key = Encoding.ASCII.GetBytes(_config["Jwt:Key"]);
+        var tokenDescriptor = new SecurityTokenDescriptor
+        {
+            Subject = new ClaimsIdentity(new[]
+            {
+        new Claim(ClaimTypes.Name, cliente.Nombre),
+        new Claim(ClaimTypes.Role, "cliente"),
+        new Claim("ClienteId", cliente.Id.ToString())
+    }),
+            Expires = DateTime.UtcNow.AddHours(12),
+            SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature),
+            Issuer = "TapAndGo", 
+            Audience = "TapAndGoClientes" 
+        };
+
+        var token = tokenHandler.CreateToken(tokenDescriptor);
+        var tokenString = tokenHandler.WriteToken(token);
+
+        return Ok(new
+        {
+            token = tokenString,
+            id = cliente.Id,
+            nombre = cliente.Nombre,
+            fechaRegistro = cliente.FechaRegistro
+        });
+    }
 }
+
+

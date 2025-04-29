@@ -2,23 +2,63 @@
   "Files": [
     {
       "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FrontendTapAndGo.bundle.scp.css",
-      "PackagePath": "staticwebassets\\FrontendTapAndGo.9rw12ngb5t.bundle.scp.css"
+      "PackagePath": "staticwebassets\\FrontendTapAndGo.em3tij93iw.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\css\\StyleSheet.css",
+      "PackagePath": "staticwebassets\\css\\StyleSheet.css"
     },
     {
       "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\css\\admin.css",
       "PackagePath": "staticwebassets\\css\\admin.css"
     },
     {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\css\\alimentos.css",
+      "PackagePath": "staticwebassets\\css\\alimentos.css"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\css\\carrito.css",
+      "PackagePath": "staticwebassets\\css\\carrito.css"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\css\\cliente.css",
+      "PackagePath": "staticwebassets\\css\\cliente.css"
+    },
+    {
       "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\css\\cocina.css",
       "PackagePath": "staticwebassets\\css\\cocina.css"
     },
     {
-      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\css\\elecciones.css",
+      "PackagePath": "staticwebassets\\css\\elecciones.css"
     },
     {
-      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\css\\styles.css",
-      "PackagePath": "staticwebassets\\css\\styles.css"
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\css\\inicio.css",
+      "PackagePath": "staticwebassets\\css\\inicio.css"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\css\\logincliente.css",
+      "PackagePath": "staticwebassets\\css\\logincliente.css"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\css\\pagoefectivo.css",
+      "PackagePath": "staticwebassets\\css\\pagoefectivo.css"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\css\\pagotarjeta.css",
+      "PackagePath": "staticwebassets\\css\\pagotarjeta.css"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\css\\perfil.css",
+      "PackagePath": "staticwebassets\\css\\perfil.css"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\favicon.ico",
@@ -49,8 +89,312 @@
       "PackagePath": "staticwebassets\\img\\User-Icon.png"
     },
     {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\banners\\banner1.jpg",
+      "PackagePath": "staticwebassets\\img\\banners\\banner1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\banners\\banner2-inner.png",
+      "PackagePath": "staticwebassets\\img\\banners\\banner2-inner.png"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\banners\\banner2-shape.png",
+      "PackagePath": "staticwebassets\\img\\banners\\banner2-shape.png"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\banners\\banner2.jpg",
+      "PackagePath": "staticwebassets\\img\\banners\\banner2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\banners\\banner3.jpg",
+      "PackagePath": "staticwebassets\\img\\banners\\banner3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\banners\\category_banner1.jpg",
+      "PackagePath": "staticwebassets\\img\\banners\\category_banner1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\banners\\category_banner2.jpg",
+      "PackagePath": "staticwebassets\\img\\banners\\category_banner2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\banners\\mainbanner1.jpg",
+      "PackagePath": "staticwebassets\\img\\banners\\mainbanner1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\banners\\mainbanner2.jpg",
+      "PackagePath": "staticwebassets\\img\\banners\\mainbanner2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\blog\\1.png",
+      "PackagePath": "staticwebassets\\img\\blog\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\blog\\2.png",
+      "PackagePath": "staticwebassets\\img\\blog\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\blog\\3.png",
+      "PackagePath": "staticwebassets\\img\\blog\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\blog\\4.png",
+      "PackagePath": "staticwebassets\\img\\blog\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\blog\\5.png",
+      "PackagePath": "staticwebassets\\img\\blog\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\blog\\6.png",
+      "PackagePath": "staticwebassets\\img\\blog\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\blog\\empleado.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\empleado.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\blog\\hamburguesa.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\hamburguesa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\blog\\shape.png",
+      "PackagePath": "staticwebassets\\img\\blog\\shape.png"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\blog\\wallpaper.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\wallpaper.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\carrito.png",
+      "PackagePath": "staticwebassets\\img\\carrito.png"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\categories\\1.png",
+      "PackagePath": "staticwebassets\\img\\categories\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\categories\\2.png",
+      "PackagePath": "staticwebassets\\img\\categories\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\categories\\3.png",
+      "PackagePath": "staticwebassets\\img\\categories\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\categories\\4.png",
+      "PackagePath": "staticwebassets\\img\\categories\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\categories\\5.png",
+      "PackagePath": "staticwebassets\\img\\categories\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\categories\\6.png",
+      "PackagePath": "staticwebassets\\img\\categories\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\categories\\7.png",
+      "PackagePath": "staticwebassets\\img\\categories\\7.png"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\categories\\8.png",
+      "PackagePath": "staticwebassets\\img\\categories\\8.png"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\categories\\9.png",
+      "PackagePath": "staticwebassets\\img\\categories\\9.png"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\efectivo.png",
+      "PackagePath": "staticwebassets\\img\\efectivo.png"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\hamburguesa.png",
+      "PackagePath": "staticwebassets\\img\\hamburguesa.png"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\helado.png",
+      "PackagePath": "staticwebassets\\img\\helado.png"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\inicio.png",
+      "PackagePath": "staticwebassets\\img\\inicio.png"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\llevar.png",
+      "PackagePath": "staticwebassets\\img\\llevar.png"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\megamenu\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\megamenu\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\megamenu\\10.jpg",
+      "PackagePath": "staticwebassets\\img\\megamenu\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\megamenu\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\megamenu\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\megamenu\\Sodas.png",
+      "PackagePath": "staticwebassets\\img\\megamenu\\Sodas.png"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\megamenu\\can-soda.avif",
+      "PackagePath": "staticwebassets\\img\\megamenu\\can-soda.avif"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\megamenu\\hamburguesa.png",
+      "PackagePath": "staticwebassets\\img\\megamenu\\hamburguesa.png"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\megamenu\\papas.png",
+      "PackagePath": "staticwebassets\\img\\megamenu\\papas.png"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\megamenu\\postres.png",
+      "PackagePath": "staticwebassets\\img\\megamenu\\postres.png"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\pago.png",
+      "PackagePath": "staticwebassets\\img\\pago.png"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\papas.png",
+      "PackagePath": "staticwebassets\\img\\papas.png"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\products\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\products\\10.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\products\\11.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\products\\12.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\products\\13.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\products\\14.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\products\\15.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\products\\16.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\products\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\products\\3.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\products\\4.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\products\\5.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\products\\6.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\products\\7.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\products\\8.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\products\\9.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\products\\background.png",
+      "PackagePath": "staticwebassets\\img\\products\\background.png"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\products\\banner-bg1.png",
+      "PackagePath": "staticwebassets\\img\\products\\banner-bg1.png"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\products\\coca.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\coca.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\products\\hamburguesacarne.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\hamburguesacarne.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\products\\hamburguesavegana.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\hamburguesavegana.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\products\\helado.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\helado.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\products\\newsletter-bg.png",
+      "PackagePath": "staticwebassets\\img\\products\\newsletter-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\products\\nuggets.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\nuggets.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\products\\papas.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\papas.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\products\\piemanzana.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\piemanzana.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\products\\pizza.png",
+      "PackagePath": "staticwebassets\\img\\products\\pizza.png"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\products\\sprite.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\sprite.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\soda.png",
+      "PackagePath": "staticwebassets\\img\\soda.png"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\tarjeta.png",
+      "PackagePath": "staticwebassets\\img\\tarjeta.png"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\img\\tienda.png",
+      "PackagePath": "staticwebassets\\img\\tienda.png"
+    },
+    {
       "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\admin.js",
       "PackagePath": "staticwebassets\\js\\admin.js"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\alimentos.js",
+      "PackagePath": "staticwebassets\\js\\alimentos.js"
     },
     {
       "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\api.js",
@@ -65,12 +409,36 @@
       "PackagePath": "staticwebassets\\js\\auth.js"
     },
     {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\bebidas.js",
+      "PackagePath": "staticwebassets\\js\\bebidas.js"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\carrito-helper.js",
+      "PackagePath": "staticwebassets\\js\\carrito-helper.js"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\carrito.js",
+      "PackagePath": "staticwebassets\\js\\carrito.js"
+    },
+    {
       "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\cliente.js",
       "PackagePath": "staticwebassets\\js\\cliente.js"
     },
     {
       "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\cocina.js",
       "PackagePath": "staticwebassets\\js\\cocina.js"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\complementos.js",
+      "PackagePath": "staticwebassets\\js\\complementos.js"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\logincliente.js",
+      "PackagePath": "staticwebassets\\js\\logincliente.js"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\metodopago.js",
+      "PackagePath": "staticwebassets\\js\\metodopago.js"
     },
     {
       "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\notificaciones.js",
@@ -81,12 +449,20 @@
       "PackagePath": "staticwebassets\\js\\perfil.js"
     },
     {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\postres.js",
+      "PackagePath": "staticwebassets\\js\\postres.js"
+    },
+    {
       "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\productos.js",
       "PackagePath": "staticwebassets\\js\\productos.js"
     },
     {
       "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\ticketpago.js",
+      "PackagePath": "staticwebassets\\js\\ticketpago.js"
     },
     {
       "Id": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\usuarios.js",

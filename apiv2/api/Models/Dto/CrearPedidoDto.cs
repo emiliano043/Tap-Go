@@ -1,7 +1,8 @@
 ﻿public class CrearPedidoDto
 {
-    public string Cliente { get; set; }
-    public List<CrearPedidoDetalleDto> Detalles { get; set; }
+    public string Cliente { get; set; } = null!;
+    public List<CrearPedidoDetalleDto> Detalles { get; set; } = new();
+
 }
 
 public class CrearPedidoDetalleDto

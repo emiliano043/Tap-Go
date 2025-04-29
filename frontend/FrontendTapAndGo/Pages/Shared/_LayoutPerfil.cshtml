@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="~/js/notificaciones.js"></script>
+
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/perfil.css" />
+</head>
+
+
+
+<body>
+    <div class="wrapper">
+
+        <header class="top-bar">
+
+            <div class="header-left">
+                <a href="javascript:void(0);" onclick="redirigirSegunRol()">
+                    <img src="~/img/TapAndGo-Logo.png" alt="Tap And Go Logo" class="logo" />
+                </a>
+            </div>
+
+            <div class="header-title">Perfil</div>
+
+            <div class="header-right">
+                <a href="/Perfil">
+                    <img src="~/img/User-Icon.png" alt="Usuario" class="icono anim-hover" />
+                </a>
+                <a href="#" id="notificaciones">
+                    <img src="~/img/Notification-Icon.png" alt="Notificaciones" class="icono anim-hover" />
+                </a>
+
+                <a href="/Login" id="logout-button">
+                    <img src="~/img/Logout-Icon.png" alt="Cerrar sesión" class="icono anim-hover" />
+                </a>
+            </div>
+
+        </header>
+
+
+        <div id="user-info"></div>
+
+
+        <!-- Pintar -->
+
+        <main class="contenido-principal">
+            @RenderBody()
+        </main>
+
+        <!-- Footer -->
+
+        <footer class="site-footer">
+
+            <div class="footer-container">
+                <div class="footer-content">
+
+                    <p class="copyright">
+                        &copy; @DateTime.Now.Year Tap And Go. Todos los derechos reservados.
+                    </p>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+
+
+</body>
+
+</html>
+
+
+<script>
+     const hoy = new Date();
+    const fechaActual = hoy.toLocaleDateString("es-MX", {
+        day: "2-digit",
+        month: "2-digit",
+        year: "numeric"
+    });
+
+    // Usuario loggeado (solo uno)
+    fetch("http://localhost:7034/api/auth/me", {
+        headers: { Authorization: "Bearer " + token }
+    })
+        .then(res => {
+            if (!res.ok) throw new Error("Fallo al obtener el usuario loggeado");
+            return res.json();
+        })
+        .then(usuario => {
+            const contenedor = document.getElementById("user-info");
+            contenedor.innerHTML = `
+            <div class="user-info">
+
+                <div class="campo-no-usuario"><span>ID Usuario</span><strong>${usuario.id}</strong></div>
+
+                <div class = camposcentrados>
+                    <div class="campo nombre"><span>Nombre</span><strong>${usuario.nombre}</strong></div>
+                    <div class="campo email"><span>Email</span><strong>${usuario.email}</strong></div>
+                    <div class="campo rol"><span>Rol</span><strong>${usuario.rol}</strong></div>
+                </div>
+
+                <div class="fecha-actual">Fecha actual: ${fechaActual}</div>
+            </div>
+        `;
+        })
+        .catch(err => {
+            console.error(err);
+            document.getElementById("user-info").innerHTML = "<p>Error al cargar el usuario loggeado</p>";
+        });
+
+</script>
+
+
+<script>
+
+    function redirigirSegunRol() {
+            debugger; 
+
+        const rolElemento = document.querySelector(".campo.rol strong");
+
+        if (!rolElemento) {
+            // Si todavía no se pintó el rol, esperar medio segundo y volver a intentar
+            setTimeout(redirigirSegunRol, 500);
+            return;
+        }
+
+        const rol = rolElemento.textContent.trim().toLowerCase();
+
+        if (rol === "admin") {
+            window.location.href = "/Admin";
+        } else if (rol === "cocina") {
+            window.location.href = "/Cocina";
+        } else if (rol === "mesero") {
+            window.location.href = "/Mesero";
+        } else if (rol === "cliente") {
+            window.location.href = "/Cliente";
+        } else {
+            window.location.href = "/Login";
+        }
+    }
+
+</script>
+
+
+
+
+

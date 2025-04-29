@@ -1,0 +1,130 @@
+﻿body {
+    background-color: rgb(255,228,188);
+    margin: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-bar {
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    background-color: #f57e24;
+    position: fixed;
+    margin-left: 1px;
+    top: 0;
+    width: 95%;
+    height: 10vh;
+    z-index: 1000;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.nombre, .id, .fecharegistro {
+    margin-left: 170px;
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.B_atras {
+    background-color: white;
+    color: #f57e24;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.B_atras:hover {
+    width: 100px;
+    height: 50px;
+    padding: 10px 20px;
+}
+
+.main {
+    display: flex;
+    flex-grow: 1;
+    height: calc(100vh - 10vh);
+    width: 100%;
+    overflow: hidden;
+}
+
+.barra {
+    margin-top: 55px;
+    background-color: rgb(255,228,188);
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    gap: 10px;
+    overflow-y: hidden;
+    transition: all 0.3s ease;
+}
+
+.barra:hover {
+    overflow-y: auto;
+}
+
+.barra a {
+    text-decoration: none;
+    color: #313131;
+    width: 90px;
+    padding: 10px;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+
+
+/* Hover en los enlaces */
+.barra a:hover {
+    background-color: rgb(240,150,50);
+    color: white;
+    transform: scale(1.05);
+}
+
+/* Íconos */
+.barra a img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.barra a:hover img {
+    width: 50px;
+    height: 50px;
+    transform: scale(1.2) rotate(10deg);
+}
+
+/* Botón activo */
+.barra .activo {
+background-color: rgb(240,150,50);
+color: white;
+}
+
+/* Contenido principal */
+.contenido-principal {
+    flex-grow: 1;
+    background-color: white;
+    padding: 30px;
+    overflow-y: auto;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: block; /* <-- ¡IMPORTANTE! debe ser block para que deje a carrusel funcionar */
+}

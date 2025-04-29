@@ -39,11 +39,9 @@ C:\Users\Beliel\Desktop\Proyecto Tap And Go\frontend\FrontendTapAndGo\bin\Debug\
 C:\Users\Beliel\Desktop\Proyecto Tap And Go\frontend\FrontendTapAndGo\bin\Debug\net8.0\wwwroot\js\cliente.js
 C:\Users\Beliel\Desktop\Proyecto Tap And Go\frontend\FrontendTapAndGo\bin\Debug\net8.0\wwwroot\js\site.js
 C:\Users\Beliel\Desktop\Proyecto Tap And Go\frontend\FrontendTapAndGo\obj\Debug\net8.0\scopedcss\Pages\Shared\_LayoutCocina.cshtml.rz.scp.css
-C:\Users\Beliel\Desktop\Kubernetes\Tap-Go\frontend\FrontendTapAndGo\bin\Debug\net8.0\wwwroot\css\styles.css
 C:\Users\Beliel\Desktop\Kubernetes\Tap-Go\frontend\FrontendTapAndGo\bin\Debug\net8.0\wwwroot\js\admin.js
 C:\Users\Beliel\Desktop\Kubernetes\Tap-Go\frontend\FrontendTapAndGo\bin\Debug\net8.0\wwwroot\js\api.js
 C:\Users\Beliel\Desktop\Kubernetes\Tap-Go\frontend\FrontendTapAndGo\bin\Debug\net8.0\wwwroot\js\auth.js
-C:\Users\Beliel\Desktop\Kubernetes\Tap-Go\frontend\FrontendTapAndGo\bin\Debug\net8.0\wwwroot\js\cliente.js
 C:\Users\Beliel\Desktop\Kubernetes\Tap-Go\frontend\FrontendTapAndGo\bin\Debug\net8.0\wwwroot\js\site.js
 C:\Users\Beliel\Desktop\Kubernetes\Tap-Go\frontend\FrontendTapAndGo\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\Beliel\Desktop\Kubernetes\Tap-Go\frontend\FrontendTapAndGo\bin\Debug\net8.0\appsettings.json
@@ -81,3 +79,10 @@ C:\Users\Beliel\Desktop\Kubernetes\Tap-Go\frontend\FrontendTapAndGo\obj\Debug\ne
 C:\Users\Beliel\Desktop\Kubernetes\Tap-Go\frontend\FrontendTapAndGo\obj\Debug\net8.0\FrontendTapAndGo.pdb
 C:\Users\Beliel\Desktop\Kubernetes\Tap-Go\frontend\FrontendTapAndGo\obj\Debug\net8.0\FrontendTapAndGo.genruntimeconfig.cache
 C:\Users\Beliel\Desktop\Kubernetes\Tap-Go\frontend\FrontendTapAndGo\obj\Debug\net8.0\ref\FrontendTapAndGo.dll
+C:\Users\Beliel\Desktop\Kubernetes\Tap-Go\frontend\FrontendTapAndGo\bin\Debug\net8.0\System.IO.Hashing.dll
+C:\Users\Beliel\Desktop\Kubernetes\Tap-Go\frontend\FrontendTapAndGo\bin\Debug\net8.0\Yarp.ReverseProxy.dll
+C:\Users\Beliel\Desktop\Kubernetes\Tap-Go\frontend\FrontendTapAndGo\obj\Debug\net8.0\FrontendTapAndGo.csproj.AssemblyReference.cache
+C:\Users\Beliel\Desktop\Kubernetes\Tap-Go\frontend\FrontendTapAndGo\obj\Debug\net8.0\Frontend.F3307153.Up2Date
+C:\Users\Beliel\Desktop\Kubernetes\Tap-Go\frontend\FrontendTapAndGo\bin\Debug\net8.0\wwwroot\css\carrito.css
+C:\Users\Beliel\Desktop\Kubernetes\Tap-Go\frontend\FrontendTapAndGo\obj\Debug\net8.0\scopedcss\Pages\Shared\_LayoutCliente.cshtml.rz.scp.css
+C:\Users\Beliel\Desktop\Kubernetes\Tap-Go\frontend\FrontendTapAndGo\obj\Debug\net8.0\scopedcss\Pages\Shared\_LayoutPerfil.cshtml.rz.scp.css

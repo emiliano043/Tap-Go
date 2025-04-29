@@ -1,0 +1,29 @@
+﻿@page
+@model dynamic
+@{
+    Layout = null;
+    ViewData["Title"] = "Lugar";
+    <link rel="stylesheet" href="~/css/elecciones.css" />
+}
+
+<script src="~/js/api.js"></script>
+
+<div class="page-container">
+
+    <h2 class="titulo">¿En donde le gustaría comer?</h2>
+
+    <div class="eleccion">
+
+        <a class="tipo-btn" href="/Inicio">
+            <img src="/img/tienda.png" alt="Botón para comer en tienda" class="icono-btn" />
+            En tienda
+        </a>
+
+        <a class="tipo-btn" href="/Inicio">
+            <img src="/img/llevar.png" alt="Botón para pedir para llevar" class="icono-btn" />
+            Para llevar
+        </a>
+
+    </div>
+
+</div>

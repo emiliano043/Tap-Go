@@ -28,8 +28,8 @@
 
         const id = document.getElementById("productoId").value;
         const url = id
-            ? `http://192.168.1.137:7034/api/menu/${id}`
-            : "http://192.168.1.137:7034/api/menu";
+            ? `http://localhost:7034/menu/${id}`
+            : "http://localhost:7034/api/menu";
         const method = id ? "PUT" : "POST";
 
         const res = await fetch(url, {
@@ -62,7 +62,7 @@
 
 async function cargarProductos() {
     const token = localStorage.getItem("token");
-    const res = await fetch("http://192.168.1.137:7034/api/menu", {
+    const res = await fetch("http://localhost:7034/api/menu", {
         headers: { Authorization: "Bearer " + token }
     });
     const data = await res.json();
@@ -101,7 +101,7 @@ async function eliminarProducto(id) {
     const token = localStorage.getItem("token");
     if (!confirm("¿Deseas eliminar este producto?")) return;
 
-    const res = await fetch(`http://192.168.1.137:7034/api/menu/${id}`, {
+    const res = await fetch(`http://localhost:7034/api/menu/${id}`, {
         method: "DELETE",
         headers: { Authorization: "Bearer " + token }
     });
@@ -116,7 +116,7 @@ async function eliminarProducto(id) {
 
 async function editarProducto(id) {
     const token = localStorage.getItem("token");
-    const res = await fetch(`http://192.168.1.137:7034/api/menu`, {
+    const res = await fetch(`http://localhost:7034/api/menu`, {
         headers: { Authorization: "Bearer " + token }
     });
     const productos = await res.json();

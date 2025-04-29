@@ -1,0 +1,18 @@
+﻿# Visual Studio
+.vs/
+bin/
+obj/
+
+# Sistema
+Thumbs.db
+.DS_Store
+
+# Configuración de usuario
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Otros
+node_modules/
+dist/
