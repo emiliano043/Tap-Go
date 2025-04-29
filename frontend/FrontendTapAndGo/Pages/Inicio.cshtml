@@ -1,0 +1,58 @@
+﻿@page
+@model dynamic
+@{
+    Layout = "~/Pages/Shared/_LayoutCliente.cshtml";
+    ViewData["Title"] = "Inicio - Tap And Go";
+}
+<link rel="stylesheet" href="~/css/inicio.css" />
+
+
+<div class="inicio-container">
+    <div class="menu-grid">
+
+        <div class="column-left">
+
+            <a href="/Bebidas" class="category-card">
+                <div class="image-container">
+                    <img src="/img/megamenu/Sodas.png" alt="Botón para ir al menú de Bebidas">
+                </div>
+                <p>BEBIDAS</p>
+            </a>
+
+            <a href="#" class="banner-horizontal">
+                <img src="/img/megamenu/2.jpg" alt="Botón para ir a Promo 1 Peso">
+            </a>
+
+            <a href="/Alimentos" class="category-card">
+                <div class="image-container">
+                    <img src="/img/megamenu/hamburguesa.png" alt="Botón para ir  al menú de Hamburguesas">
+                </div>
+                <p>ALIMENTOS</p>
+            </a>
+
+            <a href="/Postres" class="category-card">
+                <div class="image-container">
+                    <img src="/img/megamenu/postres.png" alt="Botón para ir al menú de Postres">
+                </div>
+                <p>POSTRES</p>
+            </a>
+
+        </div>
+
+        <div class="column-right">
+
+            <a href="/Complementos" class="category-card">
+                <div class="image-container">
+                    <img src="/img/megamenu/papas.png" alt="Botón para ir al menú de Complementos">
+                </div>
+                <p>COMPLEMENTOS</p>
+            </a>
+
+            <a href="#" class="banner-vertical">
+                <img src="/img/megamenu/10.jpg" alt="Botón para ir a Promo 3x2">
+            </a>
+
+        </div>
+
+    </div>
+</div>

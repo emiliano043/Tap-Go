@@ -1,0 +1,45 @@
+﻿@page
+@model dynamic
+@{
+    Layout = null;
+    ViewData["Title"] = "Login";
+}
+
+<script src="~/js/logincliente.js"></script>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Login - TapAndGo</title>
+    <link rel="stylesheet" href="~/css/logincliente.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="card">
+
+            <div class="card-image" alt="Imagen decorativa"> </div>
+            
+            <div class="login-form">
+                <div class="logo">Tap & Go</div>
+                <h2>Bienvenido</h2>
+                <p class="subtitle">Por favor, ingrese su nombre para continuar.</p>
+
+                <form id="loginForm">
+                    <div class="input-group">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" alt="Campo para escribir su nombre" placeholder="Ej. Joseph Pérez" required />
+                        <span class="check-icon">✓</span>
+                    </div>
+
+                    <p id="error" style="color:red;"></p>
+                    <button type="submit" class="sign-in-btn" alt="Botón para ingresar">Ingresar</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

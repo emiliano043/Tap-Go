@@ -17,18 +17,26 @@ namespace TapAndGo.Api.Controllers
             _context = context;
         }
 
-        [Authorize(Roles = "mesero,cliente")]
-
+        [Authorize(Roles = "mesero,cliente,cocina")]
         [HttpPost]
         public IActionResult CrearPedido([FromBody] CrearPedidoDto dto)
         {
             if (string.IsNullOrWhiteSpace(dto.Cliente) || dto.Detalles == null || !dto.Detalles.Any())
                 return BadRequest("El cliente y los detalles del pedido son obligatorios.");
 
+            // Buscar o crear el cliente
+            var cliente = _context.Clientes.FirstOrDefault(c => c.Nombre == dto.Cliente);
+            if (cliente == null)
+            {
+                cliente = new Cliente { Nombre = dto.Cliente };
+                _context.Clientes.Add(cliente);
+                _context.SaveChanges();
+            }
+
             decimal total = 0;
             var pedido = new Pedido
             {
-                Cliente = dto.Cliente,
+                ClienteId = cliente.Id,
                 Fecha = DateTime.UtcNow,
                 Detalles = new List<PedidoDetalle>()
             };
@@ -64,7 +72,7 @@ namespace TapAndGo.Api.Controllers
             var response = new PedidoResponseDto
             {
                 Id = pedido.Id,
-                Cliente = pedido.Cliente,
+                Cliente = cliente.Nombre, // usamos el nombre del cliente desde la entidad
                 Total = pedido.Total,
                 Fecha = pedido.Fecha,
                 Detalles = pedido.Detalles.Select(det => new PedidoItemDto
@@ -81,8 +89,7 @@ namespace TapAndGo.Api.Controllers
         }
 
 
-        [Authorize(Roles = "admin,mesero,cliente")]
-
+        [Authorize(Roles = "admin,mesero,cliente,cocina")]
         [HttpGet("{id}")]
         public IActionResult GetPedido(int id)
         {
@@ -97,7 +104,7 @@ namespace TapAndGo.Api.Controllers
             var dto = new PedidoResponseDto
             {
                 Id = pedido.Id,
-                Cliente = pedido.Cliente,
+                Cliente = pedido.Cliente.Nombre,
                 Total = pedido.Total,
                 Fecha = pedido.Fecha,
                 Detalles = pedido.Detalles.Select(det => new PedidoItemDto
@@ -113,11 +120,12 @@ namespace TapAndGo.Api.Controllers
         }
 
         // bearer + token 
-        [Authorize(Roles = "mesero,cocina")]
+        [Authorize(Roles = "mesero,cocina,admin")]
         [HttpGet]
         public IActionResult GetTodos()
         {
             var pedidos = _context.Pedidos
+                 .Include(p => p.Cliente) 
                 .Include(p => p.Detalles)
                 .ThenInclude(d => d.MenuItem)
                 .ToList();
@@ -125,7 +133,7 @@ namespace TapAndGo.Api.Controllers
             var result = pedidos.Select(p => new PedidoResponseDto
             {
                 Id = p.Id,
-                Cliente = p.Cliente,
+                Cliente = p.Cliente.Nombre,
                 Total = p.Total,
                 Fecha = p.Fecha,
                 Estado = p.Estado, 
@@ -142,7 +150,7 @@ namespace TapAndGo.Api.Controllers
             return Ok(result);
         }
 
-        [Authorize(Roles = "admin,mesero")]
+        [Authorize(Roles = "admin,mesero,cocina")]
         [HttpDelete("{id}")]
         public IActionResult DeletePedido(int id)
         {
@@ -176,7 +184,7 @@ namespace TapAndGo.Api.Controllers
             };
         }
 
-        [Authorize(Roles = "admin,cocina")]
+        [Authorize(Roles = "admin,cocina,mesero")]
         [HttpGet("filtrar")]
         public IActionResult FiltrarPedidos(
         [FromQuery] string? cliente,
@@ -192,7 +200,7 @@ namespace TapAndGo.Api.Controllers
 
             if (!string.IsNullOrWhiteSpace(cliente))
             {
-                query = query.Where(p => p.Cliente.Contains(cliente));
+                query = query.Where(p => p.Cliente.Nombre.Contains(cliente));
             }
 
             if (desde.HasValue)
@@ -220,7 +228,7 @@ namespace TapAndGo.Api.Controllers
             var result = pedidos.Select(p => new PedidoResponseDto
             {
                 Id = p.Id,
-                Cliente = p.Cliente,
+                Cliente = p.Cliente.Nombre,
                 Total = p.Total,
                 Fecha = p.Fecha,
                 Detalles = p.Detalles.Select(d => new PedidoItemDto

@@ -4,7 +4,7 @@
 
 
     //  Todos los usuarios (admin)
-    fetch("http://192.168.1.137:7034/api/auth/users", {
+    fetch("http://localhost:7034/api/auth/users", {
         headers: { Authorization: "Bearer " + token }
     })
         .then(res => {

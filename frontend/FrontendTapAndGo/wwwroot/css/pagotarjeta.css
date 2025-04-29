@@ -1,0 +1,67 @@
+﻿.page-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.titulo-pago {
+    text-align: center;
+    color: #f57e24;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.datos-cliente {
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.tabla-productos {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+    .tabla-productos th, .tabla-productos td {
+        padding: 12px;
+        text-align: center;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .tabla-productos th {
+        background-color: #f57e24;
+        color: white;
+    }
+
+.total-pago {
+    text-align: right;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.acciones-pago {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn-pagar {
+    background-color: #f57e24;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.mensaje-final {
+    color: tomato;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}

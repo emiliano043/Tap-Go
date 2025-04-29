@@ -1,0 +1,232 @@
+﻿/*-----------------------------------------ESTILOS GENERALES------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: #f4f6f9;
+    font-family: 'Segoe UI', sans-serif;
+    color: #111;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+main, body {
+    padding: 0;
+}
+
+.page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+    padding-top: 60px;
+}
+
+.anim-hover {
+    transition: transform 0.2s ease-in-out, filter 0.2s ease-in-out;
+}
+
+.anim-hover:hover {
+    transform: scale(1.05);
+    filter: brightness(1.05);
+}
+
+
+
+
+
+/*-----------------------------------------LAYOUT------------------------------------*/
+
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #f57e24;
+    border-radius: 0% 0% 5% 5%;
+    border-bottom: 1px solid #ccc;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    height: 50px;
+    width: 70px;
+}
+
+.separador {
+    height: 40px;
+    border-left: 1.5px solid #000;
+}
+
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icono {
+    height: 24px;
+    cursor: pointer;
+}
+
+.top-bar .header-title {
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 180px;
+    text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
+}
+
+.user-info {
+    margin-top: 120px;
+    margin-left: 30px;
+    margin-right: 20px;
+    max-width: 95vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    background: #fff;
+    border: 2px solid #f57e24;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: -80px;
+}
+
+
+.breadcrumb {
+    margin: 15px 0;
+    font-size: 0.95rem;
+    color: #666;
+}
+
+.breadcrumb a {
+    color: #337ab7;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.breadcrumb a:hover {
+    color: #f57e24 !important;
+    text-decoration: underline;
+}
+
+.breadcrumb-separator {
+    color: #aaa;
+    padding: 0 5px;
+}
+
+.formwrapper {
+    width: 100%;
+    max-width: 400px;
+    background-color: #f57e24;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 30px 20px;
+    margin: 100px auto;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    animation: aparecer 0.6s ease-out;
+}
+
+    .formwrapper h2 {
+        margin-bottom: 20px;
+        color: white;
+    }
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+}
+
+    .input-group input::placeholder {
+        color: #999;
+    }
+
+.btn-guardar {
+    background-color: #222;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+    .btn-guardar:hover {
+        background-color: #000;
+    }
+
+.mensaje-cambio {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #fff;
+}
+
+/* Animación aparecer */
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+/*-----------------------------------------FOOTER------------------------------------*/
+
+.site-footer {
+    background-color: #f5f5f5;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    padding: 10px 0;
+    text-align: end;
+}
+
+.footer-content {
+    margin-right: 50px;
+}
+
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.contenido-principal {
+    flex: 1;
+}

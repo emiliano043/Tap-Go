@@ -11,6 +11,7 @@ namespace TapAndGo.Api.Data
         public DbSet<Pedido> Pedidos { get; set; }
         public DbSet<PedidoDetalle> PedidoDetalles { get; set; }
         public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<Cliente> Clientes { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -23,9 +24,11 @@ namespace TapAndGo.Api.Data
             modelBuilder.Entity<MenuItem>().Property(p => p.Calorias).HasPrecision(10, 2);
 
             modelBuilder.Entity<Pedido>().Property(p => p.Total).HasPrecision(10, 2);
+
+            modelBuilder.Entity<Cliente>()
+            .HasMany(c => c.Pedidos)
+            .WithOne(p => p.Cliente)
+            .HasForeignKey(p => p.ClienteId);
         }
-
-
-
     }
 }

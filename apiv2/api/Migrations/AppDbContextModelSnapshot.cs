@@ -22,6 +22,26 @@ namespace TapAndGo.Api.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("Cliente", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("FechaRegistro")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Clientes");
+                });
+
             modelBuilder.Entity("TapAndGo.Api.Models.MenuItem", b =>
                 {
                     b.Property<int>("Id")
@@ -83,9 +103,8 @@ namespace TapAndGo.Api.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("Cliente")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("ClienteId")
+                        .HasColumnType("int");
 
                     b.Property<string>("Estado")
                         .IsRequired()
@@ -99,6 +118,8 @@ namespace TapAndGo.Api.Migrations
                         .HasColumnType("decimal(10,2)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("ClienteId");
 
                     b.ToTable("Pedidos");
                 });
@@ -161,6 +182,17 @@ namespace TapAndGo.Api.Migrations
                     b.ToTable("Usuarios");
                 });
 
+            modelBuilder.Entity("TapAndGo.Api.Models.Pedido", b =>
+                {
+                    b.HasOne("Cliente", "Cliente")
+                        .WithMany("Pedidos")
+                        .HasForeignKey("ClienteId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Cliente");
+                });
+
             modelBuilder.Entity("TapAndGo.Api.Models.PedidoDetalle", b =>
                 {
                     b.HasOne("TapAndGo.Api.Models.MenuItem", "MenuItem")
@@ -178,6 +210,11 @@ namespace TapAndGo.Api.Migrations
                     b.Navigation("MenuItem");
 
                     b.Navigation("Pedido");
+                });
+
+            modelBuilder.Entity("Cliente", b =>
+                {
+                    b.Navigation("Pedidos");
                 });
 
             modelBuilder.Entity("TapAndGo.Api.Models.MenuItem", b =>

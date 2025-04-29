@@ -1,0 +1,291 @@
+﻿/* Estilos generales */
+.inicio-container {
+    padding: 30px 60px;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Grid principal de dos columnas */
+.menu-grid {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    width: 100%;
+}
+
+
+/* Tarjetas de categorías */
+.category-card {
+    background: white;
+    border: 2px solid #ff9800;
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: center;
+    padding: 10px;
+    height: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* Estilos generales */
+.inicio-container {
+    padding: 30px 60px;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Grid principal de dos columnas */
+.menu-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    width: 100%;
+}
+
+.column-left, .column-right {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* Tarjetas de categorías */
+.category-card {
+    background: white;
+    border: 2px solid #ff9800;
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: center;
+    padding: 20px;
+    height: 180px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.category-card .image-container {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
+    transform: translateY(-40px);
+    transition: transform 0.3s ease;
+}
+
+.category-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    filter: drop-shadow(0 5px 5px rgba(0,0,0,0.2));
+    transition: all 0.3s ease;
+}
+
+.category-card p {
+    margin-top: -30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+}
+
+/* Efecto hover para las tarjetas */
+.category-card:hover {
+    background: #ff9800;
+    transform: translateY(-5px);
+}
+
+.category-card:hover p {
+    color: white;
+}
+
+.category-card:hover .image-container {
+    transform: translateY(-45px) scale(1.05);
+}
+
+.category-card, .banner-horizontal, .banner-vertical {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* Banner horizontal */
+.banner-horizontal {
+    width: 100%;
+}
+
+.banner-horizontal img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.banner-horizontal img:hover {
+    transform: scale(1.02);
+}
+
+/* Banner vertical */
+.banner-vertical {
+    margin-top: -26px;
+    height: 110%;
+}
+
+.banner-vertical img {
+   
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.banner-vertical img:hover {
+    transform: scale(1.02);
+}
+
+/* Media queries para responsive */
+@media (max-width: 768px) {
+    .menu-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .inicio-container {
+        padding: 20px;
+    }
+}
+
+    .category-card .image-container {
+        position: relative;
+        width: 120px;
+        height: 120px;
+        margin-bottom: 10px;
+        transform: translateY(-40px);
+        transition: transform 0.3s ease;
+    }
+
+    .category-card img {
+        width: 100px;
+        height: 100%;
+        object-fit: contain;
+        filter: drop-shadow(0 5px 5px rgba(0,0,0,0.2));
+        transition: all 0.3s ease;
+    }
+
+    .category-card p {
+        margin-top: -30px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #333;
+        text-transform: uppercase;
+    }
+
+    /* Efecto hover para las tarjetas */
+    .category-card:hover {
+        background: #ff9800;
+        transform: translateY(-5px);
+    }
+
+        .category-card:hover p {
+            color: white;
+        }
+
+        .category-card:hover .image-container {
+            transform: translateY(-45px) scale(1.05);
+        }
+
+/* Banner horizontal */
+.banner-horizontal {
+    width: 100%;
+}
+
+    .banner-horizontal img {
+        width: 200%;
+        height: 120px;
+        object-fit: cover;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease;
+    }
+
+        .banner-horizontal img:hover {
+            transform: scale(1.02);
+        }
+
+/* Banner vertical */
+.banner-vertical {
+    height: 100%;
+}
+
+    .banner-vertical img {
+        margin-top: 185px;
+        width: 90%;
+        height: 52%;
+        object-fit:fill;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease;
+    }
+
+        .banner-vertical img:hover {
+            transform: scale(1.02);
+        }
+
+.image-container img {
+    margin-top: -40px;
+    margin-left: -40px;
+    width: 200px;
+    height: 200px;
+}
+
+
+
+    .column-right .category-card:first-child .image-container {
+        position: absolute;
+        top: -40px;
+        width: 100px;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .column-right .category-card:first-child img {
+        margin-top: 200px;
+        margin-left: 10px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .column-right .category-card:first-child p {
+        margin-top: 2000px; /* Ajusta para el posicionamiento correcto del texto */
+    }
+/* Media queries para responsive */
+@media (max-width: 768px) {
+    .menu-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .inicio-container {
+        padding: 20px;
+    }
+}
