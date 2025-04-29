@@ -1,4 +1,4 @@
-name: CI - Unit Test
+name: Tap&Go-API-TEST
 
 on:
   workflow_dispatch
