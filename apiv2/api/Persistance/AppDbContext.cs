@@ -5,8 +5,13 @@ namespace TapAndGo.Api.Data
 {
     public class AppDbContext : DbContext
     {
-        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
+        public AppDbContext(DbContextOptions<AppDbContext> options)
+            : base(options)
+        {
+        }
 
+        // Tablas (DbSets)
+        public DbSet<Cliente> Clientes { get; set; }
         public DbSet<MenuItem> MenuItems { get; set; }
         public DbSet<Pedido> Pedidos { get; set; }
         public DbSet<PedidoDetalle> PedidoDetalles { get; set; }
@@ -16,13 +21,23 @@ namespace TapAndGo.Api.Data
         {
             base.OnModelCreating(modelBuilder);
 
-            modelBuilder.Entity<MenuItem>().Property(p => p.PrecioChico).HasPrecision(10, 2);
-            modelBuilder.Entity<MenuItem>().Property(p => p.PrecioMediano).HasPrecision(10, 2);
-            modelBuilder.Entity<MenuItem>().Property(p => p.PrecioGrande).HasPrecision(10, 2);
-            modelBuilder.Entity<MenuItem>().Property(p => p.Stock).HasPrecision(10, 2);
-            modelBuilder.Entity<MenuItem>().Property(p => p.Calorias).HasPrecision(10, 2);
+            // Configurar relaciones adicionales si es necesario
 
-            modelBuilder.Entity<Pedido>().Property(p => p.Total).HasPrecision(10, 2);
+            modelBuilder.Entity<Pedido>()
+                .HasOne(p => p.Cliente)
+                .WithMany(c => c.Pedidos)
+                .HasForeignKey(p => p.ClienteId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<PedidoDetalle>()
+                .HasOne(pd => pd.Pedido)
+                .WithMany(p => p.Detalles)
+                .HasForeignKey(pd => pd.PedidoId);
+
+            modelBuilder.Entity<PedidoDetalle>()
+                .HasOne(pd => pd.MenuItem)
+                .WithMany(mi => mi.Detalles)
+                .HasForeignKey(pd => pd.MenuItemId);
         }
     }
 }

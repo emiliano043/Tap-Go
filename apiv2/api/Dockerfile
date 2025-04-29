@@ -23,20 +23,20 @@ ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
 
 # Copia los archivos al directorio
-COPY ["apiv2.csproj", "."]
+COPY ["TapAndGo.Api.csproj", "."]
 
 # Direccion donde vivirá nuestra aplicación en el contenedor
-RUN dotnet restore "./apiv2.csproj"
+RUN dotnet restore "./TapAndGo.Api.csproj"
 
 # Copia todo lo de la ruta actual a la ruta del contenedor
 COPY . .
 WORKDIR "/src/."
-RUN dotnet build "./apiv2.csproj" -c $BUILD_CONFIGURATION -o /app/build
+RUN dotnet build "./TapAndGo.Api.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
 # Esta fase se usa para publicar el proyecto de servicio que se copiará en la fase final.
 FROM build AS publish
 ARG BUILD_CONFIGURATION=Release
-RUN dotnet publish "./apiv2.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "./TapAndGo.Api.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
 
 # Esta fase se usa en producción o cuando se ejecuta desde VS en modo normal (valor predeterminado cuando no se usa la configuración de depuración)
 FROM base AS final
@@ -44,4 +44,4 @@ WORKDIR /app
 COPY --from=publish /app/publish .
 
 # Para que no se ejecute net core en vez de powershell en linux
-ENTRYPOINT ["dotnet", "apiv2.dll"]
+ENTRYPOINT ["dotnet", "apiTapAndGo.dll"]
