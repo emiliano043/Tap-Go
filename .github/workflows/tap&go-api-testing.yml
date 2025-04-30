@@ -1,0 +1,32 @@
+name: Tap&Go-API-TEST
+
+on:
+  workflow_dispatch
+  
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2
+
+      - name: Set up .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '8.x'
+
+      - name: Restore dependencies
+        run: dotnet restore ./apiv2/api/TapAndGo.Api.sln
+
+      - name: Build the solution
+        run: dotnet build ./apiv2/api/TapAndGo.Api.sln --configuration Release --no-restore
+
+      - name: Run unit tests with report
+        run: dotnet test ./apiv2/TapAndGo.Api.Tests/TapAndGo.Api.Tests.csproj --configuration Release --no-build --logger "trx;LogFileName=TestResults.trx"
+        
+      - name: Upload test results
+        uses: actions/upload-artifact@v4
+        with:
+          name: TestResults
+          path: ./apiv2/TapAndGo.Api.Tests/TestResults/TestResults.trx
