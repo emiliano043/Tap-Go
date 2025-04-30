@@ -1,5 +1,5 @@
 ﻿document.addEventListener("DOMContentLoaded", () => {
-    const token = localStorage.getItem("token");
+    const token = localStorage.getItem("token_admin");
     cargarUsuarios();
 
     document.getElementById("formUsuario").addEventListener("submit", async (e) => {
@@ -7,11 +7,18 @@
         const errorDiv = document.getElementById("form-usuario-error");
         errorDiv.innerText = "";
 
+        const emailInput = document.getElementById("email");
+        const rolSelect = document.getElementById("rol");
+        const nombreInput = document.getElementById("nombre");
+        const passwordInput = document.getElementById("passwordHash");
+
         const user = {
-            email: email.value.trim(),
-            rol: rol.value,
-            name: nombre.value.trim()
+            email: emailInput.value.trim(),
+            rol: rolSelect.value,
+            name: nombreInput.value.trim(),
+            passwordHash: passwordInput.value.trim()
         };
+
 
         if (!user.email || !user.rol) {
             errorDiv.innerText = "Correo y rol son obligatorios.";
@@ -52,7 +59,7 @@
 });
 
 async function cargarUsuarios() {
-    const token = localStorage.getItem("token");
+    const token = localStorage.getItem("token_admin");
     const res = await fetch("http://localhost:7034/api/auth/users", {
         headers: { Authorization: "Bearer " + token }
     });
@@ -77,6 +84,7 @@ async function cargarUsuarios() {
                         <td>${u.email}</td>
                         <td>${u.rol}</td>
                         <td>${u.name ?? "-"}</td>
+
                         <td>
                             <button onclick="editarUsuario(${u.id})">Editar</button>
                             ${u.rol === "admin" ? `<span style="color: gray;">No editable</span>` :
@@ -90,7 +98,7 @@ async function cargarUsuarios() {
 }
 
 async function eliminarUsuario(id, email) {
-    const token = localStorage.getItem("token");
+    const token = localStorage.getItem("token_admin");
 
     const confirm = await Swal.fire({
         title: "¿Estás seguro?",
@@ -118,7 +126,7 @@ async function eliminarUsuario(id, email) {
 
 
 async function editarUsuario(id) {
-    const token = localStorage.getItem("token");
+    const token = localStorage.getItem("token_admin");
     const res = await fetch("http://localhost:7034/api/auth/users", {
         headers: { Authorization: "Bearer " + token }
     });
@@ -126,9 +134,10 @@ async function editarUsuario(id) {
     const user = usuarios.find(u => u.id === id);
     if (!user) return Swal.fire("Error", "Usuario no encontrado.", "error");
 
-    email.value = user.email;
-    rol.value = user.rol;
-    nombre.value = user.name ?? "";
+    document.getElementById("email").value = user.email;
+    document.getElementById("rol").value = user.rol;
+    document.getElementById("nombre").value = user.name ?? "";
+    document.getElementById("passwordHash").value = ""; // siempre vacío
     usuarioId.value = user.id;
     btnGuardarUsuario.innerText = "Actualizar Usuario";
 }

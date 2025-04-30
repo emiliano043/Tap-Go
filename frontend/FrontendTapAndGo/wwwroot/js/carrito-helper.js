@@ -78,7 +78,7 @@
                 detalles: detalles
             };
 
-            const token = localStorage.getItem('token');
+            const token = localStorage.getItem('token_cliente');
 
             const resPedido = await fetch("http://localhost:7034/api/pedidos", {
                 method: 'POST',

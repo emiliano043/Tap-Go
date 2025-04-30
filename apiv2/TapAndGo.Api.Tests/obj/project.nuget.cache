@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
+  "dgSpecHash": "WCrLhUpq2ME=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Beliel\\Desktop\\TapAndGo\\Tap-Go\\apiv2\\TapAndGo.Api.Tests\\TapAndGo.Api.Tests.csproj",
+=======
   "dgSpecHash": "mmSFsbbQTKk=",
   "success": true,
   "projectFilePath": "C:\\Users\\emili\\Downloads\\Tap-Go\\apiv2\\TapAndGo.Api.Tests\\TapAndGo.Api.Tests.csproj",
+>>>>>>> 017217b19a535a6f7a7872e8e5f0ef59037c46a1
   "expectedPackageFiles": [
     "C:\\Users\\emili\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\emili\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

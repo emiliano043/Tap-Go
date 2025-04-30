@@ -1,5 +1,5 @@
 ﻿document.addEventListener("DOMContentLoaded", () => {
-    const token = localStorage.getItem("token");
+    const token = localStorage.getItem("token_admin");
     cargarProductos();
 
     document.getElementById("formProducto").addEventListener("submit", async (e) => {
@@ -28,7 +28,7 @@
 
         const id = document.getElementById("productoId").value;
         const url = id
-            ? `http://localhost:7034/menu/${id}`
+            ? `http://localhost:7034/api/menu/${id}`
             : "http://localhost:7034/api/menu";
         const method = id ? "PUT" : "POST";
 
@@ -61,7 +61,7 @@
 });
 
 async function cargarProductos() {
-    const token = localStorage.getItem("token");
+    const token = localStorage.getItem("token_admin");
     const res = await fetch("http://localhost:7034/api/menu", {
         headers: { Authorization: "Bearer " + token }
     });
@@ -98,7 +98,7 @@ async function cargarProductos() {
 }
 
 async function eliminarProducto(id) {
-    const token = localStorage.getItem("token");
+    const token = localStorage.getItem("token_admin");
     if (!confirm("¿Deseas eliminar este producto?")) return;
 
     const res = await fetch(`http://localhost:7034/api/menu/${id}`, {
@@ -115,7 +115,7 @@ async function eliminarProducto(id) {
 }
 
 async function editarProducto(id) {
-    const token = localStorage.getItem("token");
+    const token = localStorage.getItem("token_admin");
     const res = await fetch(`http://localhost:7034/api/menu`, {
         headers: { Authorization: "Bearer " + token }
     });

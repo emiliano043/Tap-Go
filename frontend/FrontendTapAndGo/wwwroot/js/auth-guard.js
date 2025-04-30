@@ -1,9 +1,20 @@
-﻿const token = localStorage.getItem("token");
-const API_BASE_URL = "http://localhost:7034/api";
+﻿const API_BASE_URL = "http://localhost:7034/api";
 
+// Detectar el rol actual
+const rol = localStorage.getItem("usuarioRol");
+
+// Determinar qué token usar según el rol
+let token = null;
+if (rol === "admin") token = localStorage.getItem("token_admin");
+else if (rol === "cocina") token = localStorage.getItem("token_cocina");
+else if (rol === "mesero") token = localStorage.getItem("token_mesero");
+else if (rol === "cliente") token = localStorage.getItem("token_cliente");
+
+// Si no hay token → redirige
 if (!token) {
     window.location.href = "/Login";
 } else {
+    // Validar el token en la API
     fetch(`${API_BASE_URL}/auth/me`, {
         headers: { Authorization: "Bearer " + token }
     })
@@ -12,20 +23,14 @@ if (!token) {
             return res.json();
         })
         .then(data => {
-            const path = window.location.pathname.toLowerCase();
-
-            if (path.includes("admin") && data.rol !== "admin") {
-                alert("Acceso denegado: no eres administrador.");
-                window.location.href = "/Cliente";
-            }
-
-            if (path.includes("cliente") && data.rol !== "cliente") {
-                alert("Acceso denegado: no eres cliente.");
-                window.location.href = "/Admin";
+            if (data.rol !== rol) {
+                alert(`Acceso denegado: tu rol es ${data.rol}, pero esta vista espera ${rol}.`);
+                window.location.href = "/Login";
             }
         })
         .catch(() => {
-            localStorage.removeItem("token");
+            localStorage.removeItem(`token_${rol}`);
+            localStorage.removeItem("usuarioRol");
             window.location.href = "/Login";
         });
 }
