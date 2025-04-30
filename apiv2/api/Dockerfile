@@ -44,4 +44,4 @@ WORKDIR /app
 COPY --from=publish /app/publish .
 
 # Para que no se ejecute net core en vez de powershell en linux
-ENTRYPOINT ["dotnet", "apiTapAndGo.dll"]
+ENTRYPOINT ["dotnet", "TapAndGo.Api.dll"]
