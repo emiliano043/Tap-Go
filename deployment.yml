@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tapngo
+  labels:
+    app: tapngo
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: tapngo
+  template:
+    metadata:
+      labels:
+        app: tapngo
+    spec:
+      containers:
+        - name: api-container
+          image: emiliano043/api-tapngo:v1
+          ports:
+            - containerPort: 8080
+          env:
+            - name: ASPNETCORE_ENVIRONMENT
+              value: Development
+          imagePullPolicy: Always

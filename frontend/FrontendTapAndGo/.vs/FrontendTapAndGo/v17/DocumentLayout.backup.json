@@ -3,8 +3,17 @@
   "WorkspaceRootPath": "C:\\Users\\Beliel\\Desktop\\TapAndGo\\Tap-Go\\frontend\\FrontendTapAndGo\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\beliel\\desktop\\tapandgo\\tap-go\\frontend\\frontendtapandgo\\wwwroot\\js\\ticketpago.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:wwwroot\\js\\ticketpago.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+=======
+      "AbsoluteMoniker": "D:0:0:{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}|Elementos de la soluci\u00F3n{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}|C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}|Elementos de la soluci\u00F3n{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\beliel\\desktop\\kubernetes\\tap-go\\frontend\\frontendtapandgo\\wwwroot\\js\\auth.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:wwwroot\\js\\auth.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+>>>>>>> 017217b19a535a6f7a7872e8e5f0ef59037c46a1
     },
     {
       "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\beliel\\desktop\\tapandgo\\tap-go\\frontend\\frontendtapandgo\\wwwroot\\js\\carrito-helper.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -59,12 +68,34 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< HEAD
               "Title": "ticketpago.js",
               "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\TapAndGo\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\ticketpago.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\ticketpago.js",
               "ToolTip": "C:\\Users\\Beliel\\Desktop\\TapAndGo\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\ticketpago.js",
               "RelativeToolTip": "wwwroot\\js\\ticketpago.js",
               "ViewState": "AgIAABQAAAAAAAAAAAAnwB4AAAAkAAAAAAAAAA==",
+=======
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-28T19:10:38.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "auth.js",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\auth.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\auth.js",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\auth.js",
+              "RelativeToolTip": "wwwroot\\js\\auth.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+>>>>>>> 017217b19a535a6f7a7872e8e5f0ef59037c46a1
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-04-30T01:31:20.725Z",
               "EditorCaption": ""
@@ -84,6 +115,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 2,
               "Title": "carrito.js",
               "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\TapAndGo\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\carrito.js",
@@ -93,10 +125,86 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-04-30T01:30:39.797Z",
+=======
+              "DocumentIndex": 3,
+              "Title": "admin.js",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\admin.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\admin.js",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\admin.js",
+              "RelativeToolTip": "wwwroot\\js\\admin.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-28T17:36:15.77Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "bebidas.js",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\bebidas.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\bebidas.js",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\bebidas.js",
+              "RelativeToolTip": "wwwroot\\js\\bebidas.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-28T17:31:57.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Inicio.cshtml",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\Pages\\Inicio.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Inicio.cshtml",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\Pages\\Inicio.cshtml",
+              "RelativeToolTip": "Pages\\Inicio.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-28T17:11:13.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-28T16:06:33.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-28T16:06:29.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MetodoPago.cshtml",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\Pages\\MetodoPago.cshtml",
+              "RelativeDocumentMoniker": "Pages\\MetodoPago.cshtml",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\Pages\\MetodoPago.cshtml",
+              "RelativeToolTip": "Pages\\MetodoPago.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-28T16:05:02.614Z",
+>>>>>>> 017217b19a535a6f7a7872e8e5f0ef59037c46a1
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 3,
               "Title": "Carrito.cshtml",
               "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\TapAndGo\\Tap-Go\\frontend\\FrontendTapAndGo\\Pages\\Carrito.cshtml",
@@ -104,6 +212,15 @@
               "ToolTip": "C:\\Users\\Beliel\\Desktop\\TapAndGo\\Tap-Go\\frontend\\FrontendTapAndGo\\Pages\\Carrito.cshtml",
               "RelativeToolTip": "Pages\\Carrito.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+=======
+              "DocumentIndex": 4,
+              "Title": "Bebidas.cshtml",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\Pages\\Bebidas.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Bebidas.cshtml",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\Pages\\Bebidas.cshtml",
+              "RelativeToolTip": "Pages\\Bebidas.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+>>>>>>> 017217b19a535a6f7a7872e8e5f0ef59037c46a1
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-30T01:30:34.465Z",
               "EditorCaption": ""
@@ -162,6 +279,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 9,
               "Title": "ProductosConfig.cshtml",
               "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\TapAndGo\\Tap-Go\\frontend\\FrontendTapAndGo\\Pages\\ProductosConfig.cshtml",
@@ -181,6 +299,26 @@
               "RelativeDocumentMoniker": "Pages\\Productos.cshtml",
               "ToolTip": "C:\\Users\\Beliel\\Desktop\\TapAndGo\\Tap-Go\\frontend\\FrontendTapAndGo\\Pages\\Productos.cshtml",
               "RelativeToolTip": "Pages\\Productos.cshtml",
+=======
+              "DocumentIndex": 10,
+              "Title": "inicio.css",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\css\\inicio.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\inicio.css",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\css\\inicio.css",
+              "RelativeToolTip": "wwwroot\\css\\inicio.css",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAHsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-28T15:56:02.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\Pages\\Login.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\frontend\\FrontendTapAndGo\\Pages\\Login.cshtml",
+              "RelativeToolTip": "Pages\\Login.cshtml",
+>>>>>>> 017217b19a535a6f7a7872e8e5f0ef59037c46a1
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-30T00:50:44.429Z",
