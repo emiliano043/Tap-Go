@@ -106,6 +106,7 @@ wwwroot\js\cliente.js
 wwwroot\js\cocina.js
 wwwroot\js\complementos.js
 wwwroot\js\logincliente.js
+wwwroot\js\logout.js
 wwwroot\js\metodopago.js
 wwwroot\js\notificaciones.js
 wwwroot\js\perfil.js

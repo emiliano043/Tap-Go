@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uKFbl8tE0iM=",
+  "dgSpecHash": "WCrLhUpq2ME=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\apiv2\\TapAndGo.Api.Tests\\TapAndGo.Api.Tests.csproj",
+  "projectFilePath": "C:\\Users\\Beliel\\Desktop\\TapAndGo\\Tap-Go\\apiv2\\TapAndGo.Api.Tests\\TapAndGo.Api.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Beliel\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Beliel\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

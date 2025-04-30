@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\apiv2\\api\\TapAndGo.Api.csproj": {}
+    "C:\\Users\\Beliel\\Desktop\\TapAndGo\\Tap-Go\\apiv2\\api\\TapAndGo.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\apiv2\\api\\TapAndGo.Api.csproj": {
+    "C:\\Users\\Beliel\\Desktop\\TapAndGo\\Tap-Go\\apiv2\\api\\TapAndGo.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\apiv2\\api\\TapAndGo.Api.csproj",
+        "projectUniqueName": "C:\\Users\\Beliel\\Desktop\\TapAndGo\\Tap-Go\\apiv2\\api\\TapAndGo.Api.csproj",
         "projectName": "TapAndGo.Api",
-        "projectPath": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\apiv2\\api\\TapAndGo.Api.csproj",
+        "projectPath": "C:\\Users\\Beliel\\Desktop\\TapAndGo\\Tap-Go\\apiv2\\api\\TapAndGo.Api.csproj",
         "packagesPath": "C:\\Users\\Beliel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\apiv2\\api\\obj\\",
+        "outputPath": "C:\\Users\\Beliel\\Desktop\\TapAndGo\\Tap-Go\\apiv2\\api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

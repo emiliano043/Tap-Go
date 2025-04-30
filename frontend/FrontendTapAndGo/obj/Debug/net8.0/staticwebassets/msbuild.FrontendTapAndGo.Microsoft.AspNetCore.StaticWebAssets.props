@@ -1758,8 +1758,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>s8ghunc7et</Fingerprint>
-      <Integrity>hHkjeNWYOrzTLjBZZGgkxerwAGQDulQSVixYB+do3TA=</Integrity>
+      <Fingerprint>lco44v1jfd</Fingerprint>
+      <Integrity>RYS0gBOlSV0mU+tCOMiJ2lJ+4cefPiNF6nkoT/vmBVQ=</Integrity>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\admin.js'))</OriginalItemSpec>
@@ -1812,8 +1812,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>jb16bhu8az</Fingerprint>
-      <Integrity>0QRhMf6Lz47qx/R0Jy8uJfHn0n21RqjYWpQ7YWoXV98=</Integrity>
+      <Fingerprint>gwnjf7q0tq</Fingerprint>
+      <Integrity>wIoVImrt0C9lTvNIE4WNITL0+FHyVuQT88fasWMWHj4=</Integrity>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\auth.js'))</OriginalItemSpec>
@@ -1830,8 +1830,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>5fzjft4vo2</Fingerprint>
-      <Integrity>78I2VlAgm6HPJ97z2X+9+dXYFxYJcqNM66b0FwHrSXI=</Integrity>
+      <Fingerprint>m85e9anbgq</Fingerprint>
+      <Integrity>BlO6RwHudIFBjmZTnEqRB+aokUDGipWuv5WnUfIJwD8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\auth-guard.js'))</OriginalItemSpec>
@@ -1884,8 +1884,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>jfmacymu8x</Fingerprint>
-      <Integrity>8TtosUFpwZDxzTTSOrS/kMSOOboQhy+QgqLFzcK4OSI=</Integrity>
+      <Fingerprint>1of5qnkznr</Fingerprint>
+      <Integrity>kfSlhCe+hownLC+ixEW0nuWHvv5LoH0ry1OBa7LxcBg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\carrito-helper.js'))</OriginalItemSpec>
@@ -1920,8 +1920,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>4wnnzancxx</Fingerprint>
-      <Integrity>tLM25pcSXBJ+lbXQ6fZzbPLsytE3PG2R7mYuqHmzUEc=</Integrity>
+      <Fingerprint>r8y2ar3crg</Fingerprint>
+      <Integrity>JSAb0jKSJQCb4bsmoINqe5Nv7dWMn+DlvlAkj57ID3A=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\cocina.js'))</OriginalItemSpec>
@@ -1956,11 +1956,29 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>q6gskdw0t4</Fingerprint>
-      <Integrity>8igOQf6d9vAxuoirE2edSvnTKPiz8+3xUC8G0vKh0Ec=</Integrity>
+      <Fingerprint>dy480zo9q4</Fingerprint>
+      <Integrity>6wjS7XPEaH/rdgpGMagEnOhBDjZzfu5sj9sCxiS4JbU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\logincliente.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\logout.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>FrontendTapAndGo</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FrontendTapAndGo</BasePath>
+      <RelativePath>js/logout.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>kzulck3nu2</Fingerprint>
+      <Integrity>4CNNpTBJV2amUQ2ckL6vj+J4PdpPCpfVEivjWLFAmvk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\logout.js'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\metodopago.js'))">
       <SourceType>Package</SourceType>
@@ -2046,8 +2064,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>12ce6efoak</Fingerprint>
-      <Integrity>ieLaWx8392QMMC3YbpnzlX/St62BNH7BQ+BiVxAW/yM=</Integrity>
+      <Fingerprint>zo7pm6ygug</Fingerprint>
+      <Integrity>M8GXKMKmtOZ1wOSlY8R4CUW1Nyq7izNMs+ad19mo/FM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\productos.js'))</OriginalItemSpec>
@@ -2100,8 +2118,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>69z48ppjz7</Fingerprint>
-      <Integrity>hhg/yrkigs/k+jpZegPwuYAnhWJqDTynN3srHSLJ9hE=</Integrity>
+      <Fingerprint>bu8wtc8mpu</Fingerprint>
+      <Integrity>PR5/Ox/IOLzJBopWjQNtbntPjx1smQ6yydnakBqTG6k=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\usuarios.js'))</OriginalItemSpec>

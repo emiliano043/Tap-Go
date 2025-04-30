@@ -26,7 +26,7 @@
             const data = await response.json();
 
             // Guardar en localStorage
-            localStorage.setItem("token", data.token);
+            localStorage.setItem("token_cliente", data.token);
             localStorage.setItem("clienteId", data.id);
             localStorage.setItem("clienteNombre", data.nombre);
             localStorage.setItem("clienteFechaRegistro", data.fechaRegistro);

@@ -7,7 +7,7 @@ const API_URL = "http://localhost:7034/api/pedidos";
 const sonidoNuevoPedido = new Audio("/sound/ding.mp3");
 
 document.addEventListener("DOMContentLoaded", () => {
-    const token = localStorage.getItem("token");
+    const token = localStorage.getItem("token_cocina");
     if (!token) location.href = "/Login";
 
     carrusel = document.getElementById("neonCarrusel"); 
@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function cargarPedidos() {
-    const token = localStorage.getItem("token");
+    const token = localStorage.getItem("token_cocina");
     fetch("http://localhost:7034/api/pedidos", {
         headers: { Authorization: "Bearer " + token }
     })
@@ -48,7 +48,7 @@ function renderPedidos(pedidos) {
         return `
             <div class="pedido ${claseEstado}">
                 <p><strong>Cliente:</strong> ${p.cliente}</p>
-                <p><strong>Hora:</strong> ${new Date(p.fecha).toLocaleTimeString()}</p>
+                <p><strong>Hora:</strong> ${new Date(p.fecha).toLocaleTimeString('es-MX', { timeZone: 'America/Mexico_City' })}</p>
                 <p><strong>Total:</strong> $${p.total.toFixed(2)}</p>
                 <ul>
                     ${p.detalles.map(d => `<li>${d.cantidad} x ${d.nombre} (${d.tamano})</li>`).join("")}
@@ -67,7 +67,7 @@ function renderPedidos(pedidos) {
     }).join("");
 }
 function actualizarEstado(id, estado) {
-    const token = localStorage.getItem("token");
+    const token = localStorage.getItem("token_cocina");
 
     fetch(`http://localhost:7034/api/pedidos/${id}/estado`, {
         method: "PUT",
@@ -130,7 +130,7 @@ function activarSonidoInicial() {
 }
 
 async function actualizarCarrusel() {
-    const token = localStorage.getItem("token");
+    const token = localStorage.getItem("token_cocina");
     const res = await fetch(API_URL, {
         headers: { Authorization: "Bearer " + token }
     });
@@ -159,7 +159,7 @@ async function actualizarCarrusel() {
 }
 
     function marcarEntregado(id) {
-    const token = localStorage.getItem("token");
+    const token = localStorage.getItem("token_cocina");
 
         fetch(`http://localhost:7034/api/pedidos/${id}/estado`, {
         method: "PUT",

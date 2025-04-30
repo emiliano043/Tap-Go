@@ -1,34 +1,53 @@
 ﻿document.addEventListener("DOMContentLoaded", function () {
     document.getElementById('loginForm').addEventListener('submit', async function (e) {
         e.preventDefault();
-        const email = document.getElementById('email').value;
-        const password = document.getElementById('password').value;
+
+        const email = document.getElementById('email').value.trim();
+        const password = document.getElementById('password').value.trim();
         const API_BASE_URL = "http://localhost:7034/api";
 
-        const res = await fetch(`${API_BASE_URL}/auth/login`, {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ email, passwordHash: password })
-        });
+        try {
+            const res = await fetch(`${API_BASE_URL}/auth/login`, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ email, passwordHash: password })
+            });
 
-        if (!res.ok) {
-            document.getElementById('error').innerText = "Credenciales incorrectas";
-            return;
-        }
+            if (!res.ok) {
+                document.getElementById('error').innerText = "Credenciales incorrectas";
+                return;
+            }
 
-        const data = await res.json();
-        localStorage.setItem("token", data.token);
+            const data = await res.json();
 
-        const me = await fetch(`${API_BASE_URL}/auth/me`, {
-            headers: { Authorization: "Bearer " + data.token }
-        }).then(r => r.json());
+            // Obtener información del usuario (nombre, rol, etc.)
+            const me = await fetch(`${API_BASE_URL}/auth/me`, {
+                headers: { Authorization: "Bearer " + data.token }
+            }).then(r => r.json());
 
-        if (me.rol === "admin") {
-            window.location.href = "/Admin";
-        } else if (me.rol === "cocina") {
-            window.location.href = "/Cocina";
-        } else {
-            window.location.href = "/Cliente";
+            // Guardar token específico según rol
+            if (me.rol === "admin") {
+                localStorage.setItem("token_admin", data.token);
+                window.location.href = "/Admin";
+            } else if (me.rol === "cocina") {
+                localStorage.setItem("token_cocina", data.token);
+                window.location.href = "/Cocina";
+            } else if (me.rol === "mesero") {
+                localStorage.setItem("token_mesero", data.token);
+                window.location.href = "/Mesero";
+            } else {
+                Swal.fire("Error", "Rol no autorizado", "error");
+                return;
+            }
+
+            // Datos adicionales opcionales
+            localStorage.setItem("usuarioNombre", me.nombre);
+            localStorage.setItem("usuarioEmail", me.email);
+            localStorage.setItem("usuarioRol", me.rol);
+
+        } catch (error) {
+            console.error("Error durante login:", error);
+            Swal.fire("Error", "Ocurrió un error inesperado", "error");
         }
     });
 });
