@@ -535,3 +535,4 @@ C:\Users\Beliel\Desktop\TapAndGo\Tap-Go\apiv2\api\obj\Debug\net8.0\staticwebasse
 C:\Users\Beliel\Desktop\TapAndGo\Tap-Go\apiv2\api\obj\Debug\net8.0\TapAndGo.DF5AB174.Up2Date
 C:\Users\Beliel\Desktop\TapAndGo\Tap-Go\apiv2\api\obj\Debug\net8.0\TapAndGo.Api.genruntimeconfig.cache
 C:\Users\Beliel\Desktop\TapAndGo\Tap-Go\apiv2\api\obj\Debug\net8.0\ref\TapAndGo.Api.dll
+C:\Users\Beliel\Desktop\TapAndGo\Tap-Go\apiv2\api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
