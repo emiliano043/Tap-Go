@@ -540,6 +540,25 @@
           }
         }
       }
+    },
+    "/": {
+      "get": {
+        "tags": [
+          "TapAndGo.Api"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
     }
   },
   "components": {

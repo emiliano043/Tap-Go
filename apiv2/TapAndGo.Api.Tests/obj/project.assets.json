@@ -4196,23 +4196,31 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\emili\\.nuget\\packages\\": {},
+    "C:\\Users\\Beliel\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\emili\\Downloads\\Tap-Go\\apiv2\\TapAndGo.Api.Tests\\TapAndGo.Api.Tests.csproj",
       "projectName": "TapAndGo.Api.Tests",
       "projectPath": "C:\\Users\\emili\\Downloads\\Tap-Go\\apiv2\\TapAndGo.Api.Tests\\TapAndGo.Api.Tests.csproj",
       "packagesPath": "C:\\Users\\emili\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\emili\\Downloads\\Tap-Go\\apiv2\\TapAndGo.Api.Tests\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\Beliel\\Desktop\\TapAndGo\\Tap-Go\\apiv2\\TapAndGo.Api.Tests\\TapAndGo.Api.Tests.csproj",
+      "projectName": "TapAndGo.Api.Tests",
+      "projectPath": "C:\\Users\\Beliel\\Desktop\\TapAndGo\\Tap-Go\\apiv2\\TapAndGo.Api.Tests\\TapAndGo.Api.Tests.csproj",
+      "packagesPath": "C:\\Users\\Beliel\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Beliel\\Desktop\\TapAndGo\\Tap-Go\\apiv2\\TapAndGo.Api.Tests\\obj\\",
+>>>>>>> 70286d3721f5548c2690df3b9053d504652b4aa8
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\emili\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Beliel\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4228,8 +4236,13 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+<<<<<<< HEAD
             "C:\\Users\\emili\\Downloads\\Tap-Go\\apiv2\\api\\TapAndGo.Api.csproj": {
               "projectPath": "C:\\Users\\emili\\Downloads\\Tap-Go\\apiv2\\api\\TapAndGo.Api.csproj"
+=======
+            "C:\\Users\\Beliel\\Desktop\\TapAndGo\\Tap-Go\\apiv2\\api\\TapAndGo.Api.csproj": {
+              "projectPath": "C:\\Users\\Beliel\\Desktop\\TapAndGo\\Tap-Go\\apiv2\\api\\TapAndGo.Api.csproj"
+>>>>>>> 70286d3721f5548c2690df3b9053d504652b4aa8
             }
           }
         }
@@ -4243,7 +4256,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -4294,7 +4308,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
@@ -4303,6 +4317,7 @@
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
+<<<<<<< HEAD
       "message": "Problema al leer el archivo de caché C:\\Users\\emili\\Downloads\\Tap-Go\\apiv2\\TapAndGo.Api.Tests\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
     },
     {
@@ -4310,6 +4325,9 @@
       "level": "Warning",
       "warningLevel": 1,
       "message": "Error al obtener los datos de vulnerabilidad del paquete: No se puede cargar el índice de servicio del origen https://api.nuget.org/v3/index.json."
+=======
+      "message": "Problema al leer el archivo de caché C:\\Users\\Beliel\\Desktop\\TapAndGo\\Tap-Go\\apiv2\\TapAndGo.Api.Tests\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+>>>>>>> 70286d3721f5548c2690df3b9053d504652b4aa8
     }
   ]
 }

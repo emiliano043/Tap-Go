@@ -15,7 +15,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TapAndGo.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c1ed4df4affdc388bdfff58278cb6d39a20991f")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e968727b8f13a9168fc6963b633f726ab4f8e48")]
+>>>>>>> 70286d3721f5548c2690df3b9053d504652b4aa8
 [assembly: System.Reflection.AssemblyProductAttribute("TapAndGo.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TapAndGo.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

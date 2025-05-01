@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\emili\\Downloads\\Tap-Go\\apiv2\\api\\",
   "Documents": [
     {
@@ -13,12 +14,50 @@
     {
       "AbsoluteMoniker": "D:0:0:{5B42F2BE-6087-4E7B-9BBE-B88250D0608A}|TapAndGo.Api.csproj|c:\\users\\emili\\downloads\\tap-go\\apiv2\\api\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B42F2BE-6087-4E7B-9BBE-B88250D0608A}|TapAndGo.Api.csproj|solutionrelative:controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+  "WorkspaceRootPath": "C:\\Users\\Beliel\\Desktop\\TapAndGo\\Tap-Go\\apiv2\\api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5B42F2BE-6087-4E7B-9BBE-B88250D0608A}|TapAndGo.Api.csproj|c:\\users\\beliel\\desktop\\tapandgo\\tap-go\\apiv2\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B42F2BE-6087-4E7B-9BBE-B88250D0608A}|TapAndGo.Api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B42F2BE-6087-4E7B-9BBE-B88250D0608A}|TapAndGo.Api.csproj|c:\\users\\beliel\\desktop\\tapandgo\\tap-go\\apiv2\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5B42F2BE-6087-4E7B-9BBE-B88250D0608A}|TapAndGo.Api.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Beliel\\AppData\\Local\\SourceServer\\a5ffdb9062591a3a0bc9ecb351529b15a356a587474b85a045cac396899f1fee\\apiv2\\api\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B42F2BE-6087-4E7B-9BBE-B88250D0608A}|TapAndGo.Api.csproj|c:\\users\\beliel\\desktop\\tapandgo\\tap-go\\apiv2\\api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5B42F2BE-6087-4E7B-9BBE-B88250D0608A}|TapAndGo.Api.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B42F2BE-6087-4E7B-9BBE-B88250D0608A}|TapAndGo.Api.csproj|c:\\users\\beliel\\desktop\\tapandgo\\tap-go\\apiv2\\api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5B42F2BE-6087-4E7B-9BBE-B88250D0608A}|TapAndGo.Api.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B42F2BE-6087-4E7B-9BBE-B88250D0608A}|TapAndGo.Api.csproj|c:\\users\\beliel\\desktop\\tapandgo\\tap-go\\apiv2\\api\\persistance\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B42F2BE-6087-4E7B-9BBE-B88250D0608A}|TapAndGo.Api.csproj|solutionrelative:persistance\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B42F2BE-6087-4E7B-9BBE-B88250D0608A}|TapAndGo.Api.csproj|c:\\users\\beliel\\desktop\\tapandgo\\tap-go\\apiv2\\api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B42F2BE-6087-4E7B-9BBE-B88250D0608A}|TapAndGo.Api.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B42F2BE-6087-4E7B-9BBE-B88250D0608A}|TapAndGo.Api.csproj|c:\\users\\beliel\\desktop\\tapandgo\\tap-go\\apiv2\\api\\controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B42F2BE-6087-4E7B-9BBE-B88250D0608A}|TapAndGo.Api.csproj|solutionrelative:controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Beliel\\AppData\\Local\\SourceServer\\5c2561fad3de09ed07915000e77c8748448480b87634e0e54d031688d839e638\\apiv2\\api\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> 70286d3721f5548c2690df3b9053d504652b4aa8
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B42F2BE-6087-4E7B-9BBE-B88250D0608A}|TapAndGo.Api.csproj|c:\\users\\emili\\downloads\\tap-go\\apiv2\\api\\persistance\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B42F2BE-6087-4E7B-9BBE-B88250D0608A}|TapAndGo.Api.csproj|solutionrelative:persistance\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{5B42F2BE-6087-4E7B-9BBE-B88250D0608A}|TapAndGo.Api.csproj|c:\\users\\emili\\downloads\\tap-go\\apiv2\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{5B42F2BE-6087-4E7B-9BBE-B88250D0608A}|TapAndGo.Api.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -33,6 +72,8 @@
       "RelativeMoniker": "D:0:0:{5B42F2BE-6087-4E7B-9BBE-B88250D0608A}|TapAndGo.Api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+=======
+>>>>>>> 70286d3721f5548c2690df3b9053d504652b4aa8
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\apiv2\\TapAndGo.Api.Tests\\MenuControllerTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -43,6 +84,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 0,
           "Children": [
             {
@@ -70,10 +112,18 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-30T23:54:13.725Z",
               "EditorCaption": ""
+=======
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+>>>>>>> 70286d3721f5548c2690df3b9053d504652b4aa8
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+<<<<<<< HEAD
               "Title": "ClientesController.cs",
               "DocumentMoniker": "C:\\Users\\emili\\Downloads\\Tap-Go\\apiv2\\api\\Controllers\\ClientesController.cs",
               "RelativeDocumentMoniker": "Controllers\\ClientesController.cs",
@@ -83,10 +133,21 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-30T23:54:06.585Z",
               "EditorCaption": ""
+=======
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Beliel\\AppData\\Local\\SourceServer\\a5ffdb9062591a3a0bc9ecb351529b15a356a587474b85a045cac396899f1fee\\apiv2\\api\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\SourceServer\\a5ffdb9062591a3a0bc9ecb351529b15a356a587474b85a045cac396899f1fee\\apiv2\\api\\Program.cs",
+              "ToolTip": "C:\\Users\\Beliel\\AppData\\Local\\SourceServer\\a5ffdb9062591a3a0bc9ecb351529b15a356a587474b85a045cac396899f1fee\\apiv2\\api\\Program.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\Local\\SourceServer\\a5ffdb9062591a3a0bc9ecb351529b15a356a587474b85a045cac396899f1fee\\apiv2\\api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T23:55:51.052Z"
+>>>>>>> 70286d3721f5548c2690df3b9053d504652b4aa8
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+<<<<<<< HEAD
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\emili\\Downloads\\Tap-Go\\apiv2\\api\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -96,10 +157,21 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-04-30T23:51:35.557Z",
               "EditorCaption": ""
+=======
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\TapAndGo\\Tap-Go\\apiv2\\api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\TapAndGo\\Tap-Go\\apiv2\\api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-30T23:52:42.588Z"
+>>>>>>> 70286d3721f5548c2690df3b9053d504652b4aa8
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+<<<<<<< HEAD
               "Title": "TapAndGo.Api.Tests.csproj",
               "DocumentMoniker": "C:\\Users\\emili\\Downloads\\Tap-Go\\apiv2\\TapAndGo.Api.Tests\\TapAndGo.Api.Tests.csproj",
               "RelativeDocumentMoniker": "..\\TapAndGo.Api.Tests\\TapAndGo.Api.Tests.csproj",
@@ -120,10 +192,57 @@
               "ViewState": "AgIAACgAAAAAAAAAAAAQwCUAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-30T18:31:04.309Z",
+=======
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\TapAndGo\\Tap-Go\\apiv2\\api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\TapAndGo\\Tap-Go\\apiv2\\api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T17:17:24.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PedidosController.cs",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\TapAndGo\\Tap-Go\\apiv2\\api\\Controllers\\PedidosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PedidosController.cs",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\TapAndGo\\Tap-Go\\apiv2\\api\\Controllers\\PedidosController.cs",
+              "RelativeToolTip": "Controllers\\PedidosController.cs",
+              "ViewState": "AgIAAPAAAAAAAAAAAAAQwAgBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T17:44:06.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\TapAndGo\\Tap-Go\\apiv2\\api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\TapAndGo\\Tap-Go\\apiv2\\api\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-29T17:26:01.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\TapAndGo\\Tap-Go\\apiv2\\api\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\TapAndGo\\Tap-Go\\apiv2\\api\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAG0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T17:24:53.266Z",
+>>>>>>> 70286d3721f5548c2690df3b9053d504652b4aa8
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\emili\\Downloads\\Tap-Go\\apiv2\\api\\Program.cs",
@@ -137,24 +256,75 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+=======
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Beliel\\AppData\\Local\\SourceServer\\5c2561fad3de09ed07915000e77c8748448480b87634e0e54d031688d839e638\\apiv2\\api\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\SourceServer\\5c2561fad3de09ed07915000e77c8748448480b87634e0e54d031688d839e638\\apiv2\\api\\Program.cs",
+              "ToolTip": "C:\\Users\\Beliel\\AppData\\Local\\SourceServer\\5c2561fad3de09ed07915000e77c8748448480b87634e0e54d031688d839e638\\apiv2\\api\\Program.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\Local\\SourceServer\\5c2561fad3de09ed07915000e77c8748448480b87634e0e54d031688d839e638\\apiv2\\api\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T17:24:46.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\TapAndGo\\Tap-Go\\apiv2\\api\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\TapAndGo\\Tap-Go\\apiv2\\api\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-29T17:22:20.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+>>>>>>> 70286d3721f5548c2690df3b9053d504652b4aa8
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\emili\\Downloads\\Tap-Go\\apiv2\\api\\Persistance\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Persistance\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\emili\\Downloads\\Tap-Go\\apiv2\\api\\Persistance\\AppDbContext.cs",
               "RelativeToolTip": "Persistance\\AppDbContext.cs",
+<<<<<<< HEAD
               "ViewState": "AgIAAAUAAAAAAAAAAAAxwCoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-29T09:17:43.683Z",
               "EditorCaption": ""
+=======
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T09:12:01.249Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\TapAndGo\\Tap-Go\\apiv2\\api\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\TapAndGo\\Tap-Go\\apiv2\\api\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAYwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-29T09:05:34.915Z"
+>>>>>>> 70286d3721f5548c2690df3b9053d504652b4aa8
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "MenuControllerTests.cs",
               "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\apiv2\\TapAndGo.Api.Tests\\MenuControllerTests.cs",
+<<<<<<< HEAD
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\apiv2\\TapAndGo.Api.Tests\\MenuControllerTests.cs",
               "ToolTip": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\apiv2\\TapAndGo.Api.Tests\\MenuControllerTests.cs",
               "RelativeToolTip": "..\\..\\..\\..\\..\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\apiv2\\TapAndGo.Api.Tests\\MenuControllerTests.cs",
+=======
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Kubernetes\\Tap-Go\\apiv2\\TapAndGo.Api.Tests\\MenuControllerTests.cs",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\Kubernetes\\Tap-Go\\apiv2\\TapAndGo.Api.Tests\\MenuControllerTests.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Kubernetes\\Tap-Go\\apiv2\\TapAndGo.Api.Tests\\MenuControllerTests.cs",
+>>>>>>> 70286d3721f5548c2690df3b9053d504652b4aa8
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-29T08:03:15.488Z"
             }

@@ -7,6 +7,13 @@ using TapAndGo.Api.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// 🔐 JWT Key embebida
+var jwtKey = "clave-secreta-super-segura-123456789";
+
+// 🧩 Cadena de conexión directa para SQL Server en el host (desde Docker)
+var connectionString = "Server=host.docker.internal;Database=TapAndGoDb;User Id=tapandgo_user;Password=123456;TrustServerCertificate=True;";
+
+// 🔗 Política de CORS
 var corsPolicy = "_tapandgoCors";
 
 builder.Services.AddCors(options =>
@@ -14,19 +21,21 @@ builder.Services.AddCors(options =>
     options.AddPolicy(corsPolicy, builder =>
     {
         builder.WithOrigins(
-            "http://localhost:5284",
-            "http://192.168.1.137:5284",
-            "http://localhost:3000",
-            "http://127.0.0.1:5284",
-            "https://tapandgoapi.loca.lt"
+            "http://localhost:5284",          // frontend Razor local
+            "http://192.168.1.137:5284",      // desde red
+            "http://localhost:3000",          // React
+            "http://127.0.0.1:5284",          // navegadores
+            "https://tapandgoapi.loca.lt"     // túnel externo
         )
         .AllowAnyHeader()
         .AllowAnyMethod();
     });
 });
 
+// Controladores API
 builder.Services.AddControllers();
 
+// 🔐 Configuración JWT
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -40,15 +49,13 @@ builder.Services.AddAuthentication(options =>
         ValidateAudience = false,
         ValidateLifetime = true,
         ValidateIssuerSigningKey = true,
-        IssuerSigningKey = new SymmetricSecurityKey(
-            Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]!)
-        ),
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtKey)),
         RoleClaimType = ClaimTypes.Role
     };
 });
 
+// 📦 Swagger para testing
 builder.Services.AddEndpointsApiExplorer();
-
 builder.Services.AddSwaggerGen(options =>
 {
     options.AddSecurityDefinition("Bearer", new Microsoft.OpenApi.Models.OpenApiSecurityScheme
@@ -77,11 +84,13 @@ builder.Services.AddSwaggerGen(options =>
     });
 });
 
+// 📂 Inyección del contexto de base de datos con conexión directa
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseSqlServer(connectionString));
 
 var app = builder.Build();
 
+// 🧪 Swagger solo en desarrollo
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -94,6 +103,7 @@ app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
 
+// Ruta raíz para prueba
 app.MapGet("/", () => "¡API TapAndGo está corriendo!");
 
 app.Run("http://0.0.0.0:8080");
