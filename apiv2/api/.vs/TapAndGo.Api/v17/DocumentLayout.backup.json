@@ -39,10 +39,10 @@
   "WorkspaceRootPath": "C:\\Users\\emili\\Downloads\\Tap-Go\\apiv2\\api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4174573E-D742-423A-9A8F-053EE65FACFF}|..\\TapAndGo.Api.Tests\\TapAndGo.Api.Tests.csproj|c:\\users\\emili\\downloads\\tap-go\\apiv2\\tapandgo.api.tests\\tapandgo.api.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{4174573E-D742-423A-9A8F-053EE65FACFF}|..\\TapAndGo.Api.Tests\\TapAndGo.Api.Tests.csproj|c:\\users\\emili\\downloads\\tap-go\\apiv2\\tapandgo.api.tests\\menucontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4174573E-D742-423A-9A8F-053EE65FACFF}|..\\TapAndGo.Api.Tests\\TapAndGo.Api.Tests.csproj|c:\\users\\emili\\downloads\\tap-go\\apiv2\\tapandgo.api.tests\\menucontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4174573E-D742-423A-9A8F-053EE65FACFF}|..\\TapAndGo.Api.Tests\\TapAndGo.Api.Tests.csproj|c:\\users\\emili\\downloads\\tap-go\\apiv2\\tapandgo.api.tests\\tapandgo.api.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B42F2BE-6087-4E7B-9BBE-B88250D0608A}|TapAndGo.Api.csproj|c:\\users\\emili\\downloads\\tap-go\\apiv2\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -64,6 +64,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TapAndGo.Api.Tests",
+              "DocumentMoniker": "C:\\Users\\emili\\Downloads\\Tap-Go\\apiv2\\TapAndGo.Api.Tests\\TapAndGo.Api.Tests.csproj",
+              "RelativeDocumentMoniker": "..\\TapAndGo.Api.Tests\\TapAndGo.Api.Tests.csproj",
+              "ToolTip": "C:\\Users\\emili\\Downloads\\Tap-Go\\apiv2\\TapAndGo.Api.Tests\\TapAndGo.Api.Tests.csproj",
+              "RelativeToolTip": "..\\TapAndGo.Api.Tests\\TapAndGo.Api.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-30T18:39:09.34Z",
+=======
 <<<<<<< HEAD
           "SelectedChildIndex": 6,
 =======
@@ -117,10 +132,27 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAUwBAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-29T17:24:53.266Z",
+>>>>>>> ce629270c0ba16dcba539e0306961a0debd2fc62
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
+              "DocumentIndex": 0,
+              "Title": "MenuControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\emili\\Downloads\\Tap-Go\\apiv2\\TapAndGo.Api.Tests\\MenuControllerTests.cs",
+              "RelativeDocumentMoniker": "..\\TapAndGo.Api.Tests\\MenuControllerTests.cs",
+              "ToolTip": "C:\\Users\\emili\\Downloads\\Tap-Go\\apiv2\\TapAndGo.Api.Tests\\MenuControllerTests.cs",
+              "RelativeToolTip": "..\\TapAndGo.Api.Tests\\MenuControllerTests.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwCUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T18:31:04.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+=======
               "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Beliel\\AppData\\Local\\SourceServer\\5c2561fad3de09ed07915000e77c8748448480b87634e0e54d031688d839e638\\apiv2\\api\\Program.cs",
@@ -134,34 +166,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-<<<<<<< HEAD
-              "Title": "TapAndGo.Api.Tests",
-              "DocumentMoniker": "C:\\Users\\emili\\Downloads\\Tap-Go\\apiv2\\TapAndGo.Api.Tests\\TapAndGo.Api.Tests.csproj",
-              "RelativeDocumentMoniker": "..\\TapAndGo.Api.Tests\\TapAndGo.Api.Tests.csproj",
-              "ToolTip": "C:\\Users\\emili\\Downloads\\Tap-Go\\apiv2\\TapAndGo.Api.Tests\\TapAndGo.Api.Tests.csproj",
-              "RelativeToolTip": "..\\TapAndGo.Api.Tests\\TapAndGo.Api.Tests.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-30T18:39:09.34Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MenuControllerTests.cs",
-              "DocumentMoniker": "C:\\Users\\emili\\Downloads\\Tap-Go\\apiv2\\TapAndGo.Api.Tests\\MenuControllerTests.cs",
-              "RelativeDocumentMoniker": "..\\TapAndGo.Api.Tests\\MenuControllerTests.cs",
-              "ToolTip": "C:\\Users\\emili\\Downloads\\Tap-Go\\apiv2\\TapAndGo.Api.Tests\\MenuControllerTests.cs",
-              "RelativeToolTip": "..\\TapAndGo.Api.Tests\\MenuControllerTests.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T18:31:04.309Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-=======
 <<<<<<< HEAD
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\TapAndGo\\Tap-Go\\apiv2\\api\\appsettings.json",

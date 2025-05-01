@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "WCrLhUpq2ME=",
-  "success": true,
-  "projectFilePath": "C:\\Users\\Beliel\\Desktop\\TapAndGo\\Tap-Go\\apiv2\\TapAndGo.Api.Tests\\TapAndGo.Api.Tests.csproj",
-=======
   "dgSpecHash": "mmSFsbbQTKk=",
   "success": true,
   "projectFilePath": "C:\\Users\\emili\\Downloads\\Tap-Go\\apiv2\\TapAndGo.Api.Tests\\TapAndGo.Api.Tests.csproj",
->>>>>>> 017217b19a535a6f7a7872e8e5f0ef59037c46a1
   "expectedPackageFiles": [
     "C:\\Users\\emili\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\emili\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
@@ -90,5 +84,18 @@
     "C:\\Users\\emili\\.nuget\\packages\\xunit.extensibility.execution\\2.9.3\\xunit.extensibility.execution.2.9.3.nupkg.sha512",
     "C:\\Users\\emili\\.nuget\\packages\\xunit.runner.visualstudio\\3.0.2\\xunit.runner.visualstudio.3.0.2.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché C:\\Users\\emili\\Downloads\\Tap-Go\\apiv2\\TapAndGo.Api.Tests\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    },
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Error al obtener los datos de vulnerabilidad del paquete: No se puede cargar el índice de servicio del origen https://api.nuget.org/v3/index.json."
+    }
+  ]
 }
