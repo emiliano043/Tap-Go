@@ -24,7 +24,7 @@
             return;
         }
 
-        const res = await fetch("http://localhost:7034/api/auth/me/password", {
+        const res = await fetch("http://localhost:31245/api/auth/me/password", {
             method: "PUT",
             headers: {
                 "Content-Type": "application/json",

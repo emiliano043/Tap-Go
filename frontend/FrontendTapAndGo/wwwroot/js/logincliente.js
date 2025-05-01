@@ -10,7 +10,7 @@
         }
 
         try {
-            const API_URL = "http://localhost:7034/api/auth/cliente"; 
+            const API_URL = "http://localhost:31245/api/auth/cliente"; 
 
             const response = await fetch(API_URL, {
                 method: 'POST',

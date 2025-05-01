@@ -1,5 +1,5 @@
 ﻿document.addEventListener("DOMContentLoaded", async function () {
-    const API_URL = "http://localhost:7034/api/menu";
+    const API_URL = "http://localhost:31245/api/menu";
 
     try {
         const res = await fetch(API_URL);

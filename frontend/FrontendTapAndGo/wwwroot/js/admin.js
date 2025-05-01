@@ -4,7 +4,7 @@ const token = localStorage.getItem("token_admin");
 
 
     //  Todos los usuarios (admin)
-    fetch("http://localhost:7034/api/auth/users", {
+    fetch("http://localhost:31245/api/auth/users", {
         headers: { Authorization: "Bearer " + token }
     })
         .then(res => {

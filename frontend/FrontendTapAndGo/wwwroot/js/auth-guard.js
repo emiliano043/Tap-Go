@@ -1,4 +1,4 @@
-﻿const API_BASE_URL = "http://localhost:7034/api";
+﻿const API_BASE_URL = "http://localhost:31245/api";
 
 // Detectar el rol actual
 const rol = localStorage.getItem("usuarioRol");
