@@ -170,15 +170,15 @@ C:\Users\Beliel\Desktop\Kubernetes\Tap-Go\apiv2\TapAndGo.Api.Tests\obj\Debug\net
 C:\Users\Beliel\Desktop\Kubernetes\Tap-Go\apiv2\TapAndGo.Api.Tests\obj\Debug\net8.0\ref\TapAndGo.Api.Tests.dll
 C:\Users\emili\Downloads\Tap-Go\apiv2\TapAndGo.Api.Tests\bin\Debug\net8.0\.msCoverageSourceRootsMapping_TapAndGo.Api.Tests
 C:\Users\emili\Downloads\Tap-Go\apiv2\TapAndGo.Api.Tests\bin\Debug\net8.0\CoverletSourceRootsMapping_TapAndGo.Api.Tests
-C:\Users\emili\Downloads\Tap-Go\apiv2\TapAndGo.Api.Tests\bin\Debug\net8.0\testhost.exe
 C:\Users\emili\Downloads\Tap-Go\apiv2\TapAndGo.Api.Tests\bin\Debug\net8.0\testhost.dll
 C:\Users\emili\Downloads\Tap-Go\apiv2\TapAndGo.Api.Tests\bin\Debug\net8.0\xunit.abstractions.dll
-C:\Users\emili\Downloads\Tap-Go\apiv2\TapAndGo.Api.Tests\bin\Debug\net8.0\xunit.runner.visualstudio.testadapter.dll
 C:\Users\emili\Downloads\Tap-Go\apiv2\TapAndGo.Api.Tests\bin\Debug\net8.0\TapAndGo.Api.deps.json
 C:\Users\emili\Downloads\Tap-Go\apiv2\TapAndGo.Api.Tests\bin\Debug\net8.0\TapAndGo.Api.runtimeconfig.json
 C:\Users\emili\Downloads\Tap-Go\apiv2\TapAndGo.Api.Tests\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\emili\Downloads\Tap-Go\apiv2\TapAndGo.Api.Tests\bin\Debug\net8.0\appsettings.json
 C:\Users\emili\Downloads\Tap-Go\apiv2\TapAndGo.Api.Tests\bin\Debug\net8.0\TapAndGo.Api.exe
+C:\Users\emili\Downloads\Tap-Go\apiv2\TapAndGo.Api.Tests\bin\Debug\net8.0\testhost.exe
+C:\Users\emili\Downloads\Tap-Go\apiv2\TapAndGo.Api.Tests\bin\Debug\net8.0\xunit.runner.visualstudio.testadapter.dll
 C:\Users\emili\Downloads\Tap-Go\apiv2\TapAndGo.Api.Tests\bin\Debug\net8.0\TapAndGo.Api.Tests.deps.json
 C:\Users\emili\Downloads\Tap-Go\apiv2\TapAndGo.Api.Tests\bin\Debug\net8.0\TapAndGo.Api.Tests.runtimeconfig.json
 C:\Users\emili\Downloads\Tap-Go\apiv2\TapAndGo.Api.Tests\bin\Debug\net8.0\TapAndGo.Api.Tests.dll
