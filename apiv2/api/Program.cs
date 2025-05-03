@@ -11,7 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 var jwtKey = "clave-secreta-super-segura-123456789";
 
 // 🧩 Cadena de conexión directa para SQL Server en el host (desde Docker)
-var connectionString = "Server=host.docker.internal;Database=TapAndGoDb;User Id=tapandgo_user;Password=123456;TrustServerCertificate=True;";
+var connectionString = "Server=database-1.cs9oskimw1wh.us-east-1.rds.amazonaws.com;Database=TapAndGoDb;User Id=admin;Password=emY_160604; TrustServerCertificate=True";
 // 🔗 Política de CORS
 var corsPolicy = "_tapandgoCors";
 

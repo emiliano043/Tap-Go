@@ -52,7 +52,7 @@
         const detalles = [];
 
         try {
-            const resMenu = await fetch("http://localhost:31245/api/menu");
+            const resMenu = await fetch("http://a79ae1b393e2246f5813f8c16a8028b9-123841045.us-east-1.elb.amazonaws.com/api/menu");
             const menuItems = await resMenu.json();
 
             for (const itemCarrito of Object.values(carrito)) {
@@ -80,7 +80,7 @@
 
             const token = localStorage.getItem('token_cliente');
 
-            const resPedido = await fetch("http://localhost:31245/api/pedidos", {
+            const resPedido = await fetch("http://a79ae1b393e2246f5813f8c16a8028b9-123841045.us-east-1.elb.amazonaws.com/api/pedidos", {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

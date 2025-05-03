@@ -1,4 +1,4 @@
-﻿const API_BASE_URL = "http://localhost:31245/api";
+﻿const API_BASE_URL = "http://a79ae1b393e2246f5813f8c16a8028b9-123841045.us-east-1.elb.amazonaws.com/api";
 
 // Detectar el rol actual
 const rol = localStorage.getItem("usuarioRol");

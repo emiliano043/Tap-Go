@@ -3,16 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\emili\\downloads\\tap-go\\frontend\\frontendtapandgo\\wwwroot\\js\\admin.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:wwwroot\\js\\admin.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\emili\\downloads\\tap-go\\frontend\\frontendtapandgo\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\emili\\downloads\\tap-go\\frontend\\frontendtapandgo\\wwwroot\\js\\usuarios.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:wwwroot\\js\\usuarios.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\emili\\downloads\\tap-go\\frontend\\frontendtapandgo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\emili\\downloads\\tap-go\\frontend\\frontendtapandgo\\pages\\productosconfig.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:pages\\productosconfig.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\emili\\downloads\\tap-go\\frontend\\frontendtapandgo\\wwwroot\\js\\api.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:wwwroot\\js\\api.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\emili\\downloads\\tap-go\\frontend\\frontendtapandgo\\wwwroot\\js\\admin.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:wwwroot\\js\\admin.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\emili\\downloads\\tap-go\\frontend\\frontendtapandgo\\wwwroot\\js\\bebidas.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:wwwroot\\js\\bebidas.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\emili\\downloads\\tap-go\\frontend\\frontendtapandgo\\wwwroot\\js\\carrito.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:wwwroot\\js\\carrito.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\emili\\downloads\\tap-go\\frontend\\frontendtapandgo\\wwwroot\\js\\auth-guard.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:wwwroot\\js\\auth-guard.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\emili\\downloads\\tap-go\\frontend\\frontendtapandgo\\wwwroot\\js\\alimentos.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:wwwroot\\js\\alimentos.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\emili\\downloads\\tap-go\\frontend\\frontendtapandgo\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\emili\\downloads\\tap-go\\frontend\\frontendtapandgo\\wwwroot\\js\\cocina.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -38,10 +66,6 @@
       "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:wwwroot\\js\\carrito-helper.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\emili\\downloads\\tap-go\\frontend\\frontendtapandgo\\wwwroot\\js\\carrito.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:wwwroot\\js\\carrito.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\emili\\downloads\\tap-go\\frontend\\frontendtapandgo\\pages\\carrito.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:pages\\carrito.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -50,20 +74,12 @@
       "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:pages\\cocina.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\emili\\downloads\\tap-go\\frontend\\frontendtapandgo\\wwwroot\\js\\usuarios.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:wwwroot\\js\\usuarios.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\emili\\downloads\\tap-go\\frontend\\frontendtapandgo\\wwwroot\\js\\productos.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:wwwroot\\js\\productos.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\emili\\downloads\\tap-go\\frontend\\frontendtapandgo\\pages\\productos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:pages\\productos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\emili\\downloads\\tap-go\\frontend\\frontendtapandgo\\pages\\productosconfig.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:pages\\productosconfig.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -73,24 +89,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
+              "Title": "bebidas.js",
+              "DocumentMoniker": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\bebidas.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\bebidas.js",
+              "ToolTip": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\bebidas.js",
+              "RelativeToolTip": "wwwroot\\js\\bebidas.js",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAAAAEAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-03T07:45:57.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "auth-guard.js",
+              "DocumentMoniker": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\auth-guard.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\auth-guard.js",
+              "ToolTip": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\auth-guard.js",
+              "RelativeToolTip": "wwwroot\\js\\auth-guard.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-03T07:45:52.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "api.js",
+              "DocumentMoniker": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\api.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\api.js",
+              "ToolTip": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\api.js",
+              "RelativeToolTip": "wwwroot\\js\\api.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-03T07:38:48.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "alimentos.js",
+              "DocumentMoniker": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\alimentos.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\alimentos.js",
+              "ToolTip": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\alimentos.js",
+              "RelativeToolTip": "wwwroot\\js\\alimentos.js",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-03T07:36:09.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "admin.js",
               "DocumentMoniker": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\admin.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\admin.js",
               "ToolTip": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\admin.js",
               "RelativeToolTip": "wwwroot\\js\\admin.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-05-01T03:13:38.771Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\Pages\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Pages\\_ViewImports.cshtml",
@@ -103,20 +171,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-01T03:13:18.797Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -124,23 +192,23 @@
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AgIAAAUAAAAAAAAAAADgvxAAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-01T02:22:04.758Z"
+              "WhenOpened": "2025-05-01T02:22:04.758Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "Microsoft.PackageDependencyResolution.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
               "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
-              "ViewState": "AgIAAAQBAAAAAAAAAAAowBABAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
               "WhenOpened": "2025-05-01T02:21:40.176Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "FrontendTapAndGo.csproj.nuget.g.props",
               "DocumentMoniker": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\obj\\FrontendTapAndGo.csproj.nuget.g.props",
               "RelativeDocumentMoniker": "obj\\FrontendTapAndGo.csproj.nuget.g.props",
@@ -152,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "ticketpago.js",
               "DocumentMoniker": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\ticketpago.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\ticketpago.js",
@@ -160,11 +228,12 @@
               "RelativeToolTip": "wwwroot\\js\\ticketpago.js",
               "ViewState": "AgIAABYAAAAAAAAAAAAQwB4AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-04-30T01:31:20.725Z"
+              "WhenOpened": "2025-04-30T01:31:20.725Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "carrito-helper.js",
               "DocumentMoniker": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\carrito-helper.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\carrito-helper.js",
@@ -172,23 +241,25 @@
               "RelativeToolTip": "wwwroot\\js\\carrito-helper.js",
               "ViewState": "AgIAAHUAAAAAAAAAAAAowGgAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-04-30T01:30:55.941Z"
+              "WhenOpened": "2025-04-30T01:30:55.941Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "carrito.js",
               "DocumentMoniker": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\carrito.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\carrito.js",
               "ToolTip": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\carrito.js",
               "RelativeToolTip": "wwwroot\\js\\carrito.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAAAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-04-30T01:30:39.797Z"
+              "WhenOpened": "2025-04-30T01:30:39.797Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "Carrito.cshtml",
               "DocumentMoniker": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\Pages\\Carrito.cshtml",
               "RelativeDocumentMoniker": "Pages\\Carrito.cshtml",
@@ -196,11 +267,12 @@
               "RelativeToolTip": "Pages\\Carrito.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-30T01:30:34.465Z"
+              "WhenOpened": "2025-04-30T01:30:34.465Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "cocina.js",
               "DocumentMoniker": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\cocina.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\cocina.js",
@@ -213,31 +285,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "Cocina.cshtml",
               "DocumentMoniker": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\Pages\\Cocina.cshtml",
               "RelativeDocumentMoniker": "Pages\\Cocina.cshtml",
               "ToolTip": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\Pages\\Cocina.cshtml",
               "RelativeToolTip": "Pages\\Cocina.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-30T01:15:12.663Z"
+              "WhenOpened": "2025-04-30T01:15:12.663Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 0,
               "Title": "usuarios.js",
               "DocumentMoniker": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\usuarios.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\usuarios.js",
               "ToolTip": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\usuarios.js",
               "RelativeToolTip": "wwwroot\\js\\usuarios.js",
-              "ViewState": "AgIAAGIAAAAAAAAAAAApwHoAAABHAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAlwHoAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-04-30T01:04:21.71Z"
+              "WhenOpened": "2025-04-30T01:04:21.71Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "productos.js",
               "DocumentMoniker": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\productos.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\productos.js",
@@ -245,23 +319,25 @@
               "RelativeToolTip": "wwwroot\\js\\productos.js",
               "ViewState": "AgIAAGIAAAAAAAAAAAAawB4AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-04-30T00:51:06.691Z"
+              "WhenOpened": "2025-04-30T00:51:06.691Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 2,
               "Title": "ProductosConfig.cshtml",
               "DocumentMoniker": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\Pages\\ProductosConfig.cshtml",
               "RelativeDocumentMoniker": "Pages\\ProductosConfig.cshtml",
               "ToolTip": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\Pages\\ProductosConfig.cshtml",
               "RelativeToolTip": "Pages\\ProductosConfig.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-30T00:50:49.214Z"
+              "WhenOpened": "2025-04-30T00:50:49.214Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "Productos.cshtml",
               "DocumentMoniker": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\Pages\\Productos.cshtml",
               "RelativeDocumentMoniker": "Pages\\Productos.cshtml",
@@ -269,7 +345,8 @@
               "RelativeToolTip": "Pages\\Productos.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-30T00:50:44.429Z"
+              "WhenOpened": "2025-04-30T00:50:44.429Z",
+              "EditorCaption": ""
             }
           ]
         }

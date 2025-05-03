@@ -9,7 +9,7 @@ window.TapAndGoApi = {
 }
 
 function apiGet(path, token) {
-    return fetch(`http://localhost:31245/api${path}`, {
+    return fetch(`http://a79ae1b393e2246f5813f8c16a8028b9-123841045.us-east-1.elb.amazonaws.com/api${path}`, {
         headers: { Authorization: "Bearer " + token }
     }).then(res => res.json());
 }
