@@ -24,7 +24,9 @@ builder.Services.AddCors(options =>
             "http://192.168.1.137:5284",      // desde red
             "http://localhost:3000",          // React
             "http://127.0.0.1:5284",          // navegadores
-            "https://tapandgoapi.loca.lt"     // túnel externo
+            "https://tapandgoapi.loca.lt",   // túnel externo
+            "http://localhost:5000"         //.Exe Local
+
         )
         .AllowAnyHeader()
         .AllowAnyMethod();

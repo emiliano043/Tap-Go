@@ -9,133 +9,131 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FrontendTapAndGo
 build_property.RootNamespace = FrontendTapAndGo
-build_property.ProjectDir = C:\Users\Beliel\Desktop\App Local\frontend\FrontendTapAndGo\
+build_property.ProjectDir = C:\Users\emili\Downloads\Tap-Go\frontend\FrontendTapAndGo\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Beliel\Desktop\App Local\frontend\FrontendTapAndGo
+build_property.MSBuildProjectDirectory = C:\Users\emili\Downloads\Tap-Go\frontend\FrontendTapAndGo
 build_property._RazorSourceGeneratorDebug = 
-build_property.EffectiveAnalysisLevelStyle = 8.0
-build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Beliel/Desktop/App Local/frontend/FrontendTapAndGo/Pages/Admin.cshtml]
+[C:/Users/emili/Downloads/Tap-Go/frontend/FrontendTapAndGo/Pages/Admin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Beliel/Desktop/App Local/frontend/FrontendTapAndGo/Pages/Alimentos.cshtml]
+[C:/Users/emili/Downloads/Tap-Go/frontend/FrontendTapAndGo/Pages/Alimentos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWxpbWVudG9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Beliel/Desktop/App Local/frontend/FrontendTapAndGo/Pages/Bebidas.cshtml]
+[C:/Users/emili/Downloads/Tap-Go/frontend/FrontendTapAndGo/Pages/Bebidas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmViaWRhcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Beliel/Desktop/App Local/frontend/FrontendTapAndGo/Pages/Carrito.cshtml]
+[C:/Users/emili/Downloads/Tap-Go/frontend/FrontendTapAndGo/Pages/Carrito.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2Fycml0by5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Beliel/Desktop/App Local/frontend/FrontendTapAndGo/Pages/Cocina.cshtml]
+[C:/Users/emili/Downloads/Tap-Go/frontend/FrontendTapAndGo/Pages/Cocina.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29jaW5hLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Beliel/Desktop/App Local/frontend/FrontendTapAndGo/Pages/Complementos.cshtml]
+[C:/Users/emili/Downloads/Tap-Go/frontend/FrontendTapAndGo/Pages/Complementos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcGxlbWVudG9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Beliel/Desktop/App Local/frontend/FrontendTapAndGo/Pages/ConsultarVentas.cshtml]
+[C:/Users/emili/Downloads/Tap-Go/frontend/FrontendTapAndGo/Pages/ConsultarVentas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uc3VsdGFyVmVudGFzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Beliel/Desktop/App Local/frontend/FrontendTapAndGo/Pages/Error.cshtml]
+[C:/Users/emili/Downloads/Tap-Go/frontend/FrontendTapAndGo/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Beliel/Desktop/App Local/frontend/FrontendTapAndGo/Pages/Index.cshtml]
+[C:/Users/emili/Downloads/Tap-Go/frontend/FrontendTapAndGo/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Beliel/Desktop/App Local/frontend/FrontendTapAndGo/Pages/Inicio.cshtml]
+[C:/Users/emili/Downloads/Tap-Go/frontend/FrontendTapAndGo/Pages/Inicio.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5pY2lvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Beliel/Desktop/App Local/frontend/FrontendTapAndGo/Pages/Login.cshtml]
+[C:/Users/emili/Downloads/Tap-Go/frontend/FrontendTapAndGo/Pages/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Beliel/Desktop/App Local/frontend/FrontendTapAndGo/Pages/LoginCliente.cshtml]
+[C:/Users/emili/Downloads/Tap-Go/frontend/FrontendTapAndGo/Pages/LoginCliente.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW5DbGllbnRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Beliel/Desktop/App Local/frontend/FrontendTapAndGo/Pages/Lugar.cshtml]
+[C:/Users/emili/Downloads/Tap-Go/frontend/FrontendTapAndGo/Pages/Lugar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTHVnYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Beliel/Desktop/App Local/frontend/FrontendTapAndGo/Pages/MetodoPago.cshtml]
+[C:/Users/emili/Downloads/Tap-Go/frontend/FrontendTapAndGo/Pages/MetodoPago.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWV0b2RvUGFnby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Beliel/Desktop/App Local/frontend/FrontendTapAndGo/Pages/PagoEfectivo.cshtml]
+[C:/Users/emili/Downloads/Tap-Go/frontend/FrontendTapAndGo/Pages/PagoEfectivo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnb0VmZWN0aXZvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Beliel/Desktop/App Local/frontend/FrontendTapAndGo/Pages/PagoTarjeta.cshtml]
+[C:/Users/emili/Downloads/Tap-Go/frontend/FrontendTapAndGo/Pages/PagoTarjeta.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnb1RhcmpldGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Beliel/Desktop/App Local/frontend/FrontendTapAndGo/Pages/Perfil.cshtml]
+[C:/Users/emili/Downloads/Tap-Go/frontend/FrontendTapAndGo/Pages/Perfil.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyZmlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Beliel/Desktop/App Local/frontend/FrontendTapAndGo/Pages/Postres.cshtml]
+[C:/Users/emili/Downloads/Tap-Go/frontend/FrontendTapAndGo/Pages/Postres.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9zdHJlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Beliel/Desktop/App Local/frontend/FrontendTapAndGo/Pages/Privacy.cshtml]
+[C:/Users/emili/Downloads/Tap-Go/frontend/FrontendTapAndGo/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Beliel/Desktop/App Local/frontend/FrontendTapAndGo/Pages/Productos.cshtml]
+[C:/Users/emili/Downloads/Tap-Go/frontend/FrontendTapAndGo/Pages/Productos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdG9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Beliel/Desktop/App Local/frontend/FrontendTapAndGo/Pages/ProductosConfig.cshtml]
+[C:/Users/emili/Downloads/Tap-Go/frontend/FrontendTapAndGo/Pages/ProductosConfig.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdG9zQ29uZmlnLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Beliel/Desktop/App Local/frontend/FrontendTapAndGo/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/emili/Downloads/Tap-Go/frontend/FrontendTapAndGo/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Beliel/Desktop/App Local/frontend/FrontendTapAndGo/Pages/Usuarios.cshtml]
+[C:/Users/emili/Downloads/Tap-Go/frontend/FrontendTapAndGo/Pages/Usuarios.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpb3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Beliel/Desktop/App Local/frontend/FrontendTapAndGo/Pages/UsuariosConfig.cshtml]
+[C:/Users/emili/Downloads/Tap-Go/frontend/FrontendTapAndGo/Pages/UsuariosConfig.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpb3NDb25maWcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Beliel/Desktop/App Local/frontend/FrontendTapAndGo/Pages/_ViewImports.cshtml]
+[C:/Users/emili/Downloads/Tap-Go/frontend/FrontendTapAndGo/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Beliel/Desktop/App Local/frontend/FrontendTapAndGo/Pages/_ViewStart.cshtml]
+[C:/Users/emili/Downloads/Tap-Go/frontend/FrontendTapAndGo/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Beliel/Desktop/App Local/frontend/FrontendTapAndGo/Pages/Shared/_Layout.cshtml]
+[C:/Users/emili/Downloads/Tap-Go/frontend/FrontendTapAndGo/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-8sfcay3cfv
 
-[C:/Users/Beliel/Desktop/App Local/frontend/FrontendTapAndGo/Pages/Shared/_LayoutCliente.cshtml]
+[C:/Users/emili/Downloads/Tap-Go/frontend/FrontendTapAndGo/Pages/Shared/_LayoutCliente.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXRDbGllbnRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = b-2tz1ic3rg7
 
-[C:/Users/Beliel/Desktop/App Local/frontend/FrontendTapAndGo/Pages/Shared/_LayoutCocina.cshtml]
+[C:/Users/emili/Downloads/Tap-Go/frontend/FrontendTapAndGo/Pages/Shared/_LayoutCocina.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXRDb2NpbmEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-y6ysze37jm
 
-[C:/Users/Beliel/Desktop/App Local/frontend/FrontendTapAndGo/Pages/Shared/_LayoutPerfil.cshtml]
+[C:/Users/emili/Downloads/Tap-Go/frontend/FrontendTapAndGo/Pages/Shared/_LayoutPerfil.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXRQZXJmaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-8tqky8l7nt
