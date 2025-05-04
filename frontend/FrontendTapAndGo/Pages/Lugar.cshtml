@@ -3,7 +3,7 @@
 @{
     Layout = null;
     ViewData["Title"] = "Lugar";
-    <link rel="stylesheet" href="~/css/elecciones.css" />
+    <link rel="stylesheet" href="@Url.Content("~/css/elecciones.css")">
 }
 
 <script src="~/js/api.js"></script>
@@ -15,12 +15,12 @@
     <div class="eleccion">
 
         <a class="tipo-btn" href="/Inicio">
-            <img src="/img/tienda.png" alt="Botón para comer en tienda" class="icono-btn" />
+            <img src="@Url.Content("~/img/tienda.png")" alt="Botón para comer en tienda" class="icono-btn" />
             En tienda
         </a>
 
         <a class="tipo-btn" href="/Inicio">
-            <img src="/img/llevar.png" alt="Botón para pedir para llevar" class="icono-btn" />
+            <img src="@Url.Content("~/img/llevar.png")" alt="Botón para pedir para llevar" class="icono-btn" />
             Para llevar
         </a>
 

@@ -3,7 +3,11 @@ let pedidosAnteriores = [];
 let carrusel = null; 
 let firmaAnterior = [];
 
+<<<<<<< HEAD
+const API_URL = "af7e3634a244f413d874c590d320c241-124017443.us-east-1.elb.amazonaws.com/api/pedidos";
+=======
 const API_URL = "http://a79ae1b393e2246f5813f8c16a8028b9-123841045.us-east-1.elb.amazonaws.com/api/pedidos";
+>>>>>>> edcf0f03e512ea134731019dbc2e87f0b386082e
 const sonidoNuevoPedido = new Audio("/sound/ding.mp3");
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -19,7 +23,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function cargarPedidos() {
     const token = localStorage.getItem("token_cocina");
+<<<<<<< HEAD
+    fetch("af7e3634a244f413d874c590d320c241-124017443.us-east-1.elb.amazonaws.com/api/pedidos", {
+=======
     fetch("http://a79ae1b393e2246f5813f8c16a8028b9-123841045.us-east-1.elb.amazonaws.com/api/pedidos", {
+>>>>>>> edcf0f03e512ea134731019dbc2e87f0b386082e
         headers: { Authorization: "Bearer " + token }
     })
         .then(res => res.json())
@@ -69,7 +77,11 @@ function renderPedidos(pedidos) {
 function actualizarEstado(id, estado) {
     const token = localStorage.getItem("token_cocina");
 
+<<<<<<< HEAD
+    fetch(`http://localhost:7034/api/pedidos/${id}/estado`, {
+=======
     fetch(`http://a79ae1b393e2246f5813f8c16a8028b9-123841045.us-east-1.elb.amazonaws.com/api/pedidos/${id}/estado`, {
+>>>>>>> edcf0f03e512ea134731019dbc2e87f0b386082e
         method: "PUT",
         headers: {
             "Content-Type": "application/json",
@@ -161,7 +173,11 @@ async function actualizarCarrusel() {
     function marcarEntregado(id) {
     const token = localStorage.getItem("token_cocina");
 
+<<<<<<< HEAD
+        fetch(`af7e3634a244f413d874c590d320c241-124017443.us-east-1.elb.amazonaws.com/api/pedidos/${id}/estado`, {
+=======
         fetch(`http://a79ae1b393e2246f5813f8c16a8028b9-123841045.us-east-1.elb.amazonaws.com/api/pedidos/${id}/estado`, {
+>>>>>>> edcf0f03e512ea134731019dbc2e87f0b386082e
         method: "PUT",
         headers: {
             "Content-Type": "application/json",

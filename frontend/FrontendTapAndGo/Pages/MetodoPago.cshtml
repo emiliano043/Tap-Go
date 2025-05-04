@@ -3,7 +3,7 @@
 @{
     Layout = null;
     ViewData["Title"] = "MetodoPago";
-    <link rel="stylesheet" href="~/css/elecciones.css" />
+    <link rel="stylesheet" href="@Url.Content("~/css/elecciones.css")">
 }
 
 <script src="~/js/metodopago.js"></script>
@@ -13,12 +13,12 @@
 
 <div class="eleccion">
     <a class="tipo-btn" href="javascript:seleccionarMetodo('efectivo')">
-        <img src="/img/efectivo.png" alt="Botón para pagar con Efectivo" class="icono-btn" />
+        <img src="@Url.Content("~/img/efectivo.png")" alt="Botón para pagar con Efectivo" class="icono-btn" />
         Efectivo
     </a>
 
     <a class="tipo-btn" href="javascript:seleccionarMetodo('tarjeta')">
-        <img src="/img/tarjeta.png" alt="Botón para pagar con Tarjeta" class="icono-btn" />
+        <img src="@Url.Content("~/img/tarjeta.png")" alt="Botón para pagar con Tarjeta" class="icono-btn" />
         Con tarjeta
     </a>
 </div>

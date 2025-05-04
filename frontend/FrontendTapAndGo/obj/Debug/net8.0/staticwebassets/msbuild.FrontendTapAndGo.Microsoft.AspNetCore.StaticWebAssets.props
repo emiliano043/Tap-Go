@@ -1564,6 +1564,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
+<<<<<<< HEAD
+      <Fingerprint>d8aoh5brci</Fingerprint>
+      <Integrity>M2GbpNyLMne+nh5yx0HPYJpvTz7xnp+kq4wLiVBGooM=</Integrity>
+=======
+>>>>>>> edcf0f03e512ea134731019dbc2e87f0b386082e
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\admin.js))</OriginalItemSpec>
@@ -1580,6 +1585,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
+<<<<<<< HEAD
+      <Fingerprint>361zteh3pp</Fingerprint>
+      <Integrity>VQpjf4vTkQ2Hg5Dk/Xu0iYyIr7pA8kd/fcvLMBkw0Zw=</Integrity>
+=======
+>>>>>>> edcf0f03e512ea134731019dbc2e87f0b386082e
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\alimentos.js))</OriginalItemSpec>
@@ -1596,11 +1606,38 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
+<<<<<<< HEAD
+      <Fingerprint>pylgmyufn8</Fingerprint>
+      <Integrity>MRGaci/qQt1EDCN1ZbbZU4gExNanvXMOeUdI12MudZQ=</Integrity>
+=======
+>>>>>>> edcf0f03e512ea134731019dbc2e87f0b386082e
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\api.js))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\auth.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>FrontendTapAndGo</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FrontendTapAndGo</BasePath>
+      <RelativePath>js/auth.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ki9q57wriy</Fingerprint>
+      <Integrity>rBNa+yWPU7VGcQvxK3JqAMQJ6AqaN/7jvphbAgmVkdg=</Integrity>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\auth.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\auth-guard.js'))">
+=======
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\auth-guard.js))">
+>>>>>>> edcf0f03e512ea134731019dbc2e87f0b386082e
       <SourceType>Package</SourceType>
       <SourceId>FrontendTapAndGo</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -1612,6 +1649,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
+<<<<<<< HEAD
+      <Fingerprint>hx3v4uytbs</Fingerprint>
+      <Integrity>W74bXIofunmkocEgniGFYYgjA9GcfMbhqMNVZOYuHns=</Integrity>
+=======
+>>>>>>> edcf0f03e512ea134731019dbc2e87f0b386082e
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\auth-guard.js))</OriginalItemSpec>
@@ -1644,6 +1686,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
+<<<<<<< HEAD
+      <Fingerprint>akv7k2wjdc</Fingerprint>
+      <Integrity>dsjW3F0TVSeYIwDI+U2ebxH+yCFOOX3XYWGOt9of2Bw=</Integrity>
+=======
+>>>>>>> edcf0f03e512ea134731019dbc2e87f0b386082e
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\bebidas.js))</OriginalItemSpec>
@@ -1660,6 +1707,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
+<<<<<<< HEAD
+      <Fingerprint>lvpdlbuw4m</Fingerprint>
+      <Integrity>vxrv8uedAKSSC/0FICxTxHBOK7TfUDBlOoYE7JhlrCs=</Integrity>
+=======
+>>>>>>> edcf0f03e512ea134731019dbc2e87f0b386082e
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\carrito-helper.js))</OriginalItemSpec>
@@ -1708,6 +1760,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
+<<<<<<< HEAD
+      <Fingerprint>r4g6a9zb5l</Fingerprint>
+      <Integrity>K5UZK7YdBadu7clf/xnJomEKJ9F4zRpt1984tfPnFg0=</Integrity>
+=======
+>>>>>>> edcf0f03e512ea134731019dbc2e87f0b386082e
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\cocina.js))</OriginalItemSpec>
@@ -1724,6 +1781,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
+<<<<<<< HEAD
+      <Fingerprint>5wsb0ve5g6</Fingerprint>
+      <Integrity>+5z7vyEt+G61QpRYa1zUZRRuVc6vxABZnoIS3PUpPS4=</Integrity>
+=======
+>>>>>>> edcf0f03e512ea134731019dbc2e87f0b386082e
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\complementos.js))</OriginalItemSpec>
@@ -1740,6 +1802,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
+<<<<<<< HEAD
+      <Fingerprint>zhykvxt8sz</Fingerprint>
+      <Integrity>WaFIK2fMFFXITV660jpGlbYYbNBT6e2pqX55+Hz0oDk=</Integrity>
+=======
+>>>>>>> edcf0f03e512ea134731019dbc2e87f0b386082e
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\logincliente.js))</OriginalItemSpec>
@@ -1804,6 +1871,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
+<<<<<<< HEAD
+      <Fingerprint>zfncxmc33s</Fingerprint>
+      <Integrity>UaXsDT66zSCoL5E7B24ihY2dfmmbvsYbjVHbnCc+JNc=</Integrity>
+=======
+>>>>>>> edcf0f03e512ea134731019dbc2e87f0b386082e
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\perfil.js))</OriginalItemSpec>
@@ -1820,6 +1892,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
+<<<<<<< HEAD
+      <Fingerprint>17rqh6akdn</Fingerprint>
+      <Integrity>08pcPT95WL6UZiqLPlMgbUPu/mOCdvizpotCVvzYMwo=</Integrity>
+=======
+>>>>>>> edcf0f03e512ea134731019dbc2e87f0b386082e
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\postres.js))</OriginalItemSpec>
@@ -1836,6 +1913,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
+<<<<<<< HEAD
+      <Fingerprint>35lfc1sfxf</Fingerprint>
+      <Integrity>OTc+xNG2SO70jxC8e+RKBC9zo4kAXqphGe9ki6ie8SI=</Integrity>
+=======
+>>>>>>> edcf0f03e512ea134731019dbc2e87f0b386082e
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\productos.js))</OriginalItemSpec>
@@ -1884,6 +1966,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
+<<<<<<< HEAD
+      <Fingerprint>js78ny5sdu</Fingerprint>
+      <Integrity>jZezIfevy2GRGu9YteuPn8TEEO4fGauhDtKsIjFeMcw=</Integrity>
+=======
+>>>>>>> edcf0f03e512ea134731019dbc2e87f0b386082e
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\usuarios.js))</OriginalItemSpec>

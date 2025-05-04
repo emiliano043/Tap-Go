@@ -11,7 +11,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewData["Title"]</title>
-    <link rel="stylesheet" href="~/css/cocina.css" />
+    <link rel="stylesheet" href="@Url.Content("~/css/cocina.css")">
 </head>
 
 
@@ -22,21 +22,21 @@
         <header class="top-bar">
 
             <div class="header-left">
-                <a href="/Admin"><img src="~/img/TapAndGo-Logo.png" alt="Tap And Go Logo" class="logo" /> </a>
+                <img src="@Url.Content("~/img/TapAndGo-Logo.png")" alt="Tap And Go Logo" class="logo" /> </a>
             </div>
 
             <div class="header-title">Consola de Cocina</div>
 
             <div class="header-right">
                 <a href="/Perfil">
-                    <img src="~/img/User-Icon.png" alt="Usuario" class="icono anim-hover" />
+                   <img src="@Url.Content("~/img/User-Icon.png")"  alt="Usuario" class="icono anim-hover" />
                 </a>
                 <a href="#" id="notificaciones">
-                    <img src="~/img/Notification-Icon.png" alt="Notificaciones" class="icono anim-hover" />
+                    <img src="@Url.Content("~/img/Notification-Icon.png")" alt="Notificaciones" class="icono anim-hover" />
                 </a>
 
                 <a href="/Login" id="logout-button">
-                    <img src="~/img/Logout-Icon.png" alt="Cerrar sesión" class="icono anim-hover" />
+                    <img src="@Url.Content("~/img/Logout-Icon.png")" alt="Cerrar sesión" class="icono anim-hover" />
                 </a>
             </div>
 
@@ -84,7 +84,11 @@
     });
 
     // Usuario loggeado (solo uno)
+<<<<<<< HEAD
+    fetch("http://af7e3634a244f413d874c590d320c241-124017443.us-east-1.elb.amazonaws.com/api/auth/me", {
+=======
     fetch("http://a79ae1b393e2246f5813f8c16a8028b9-123841045.us-east-1.elb.amazonaws.com/api/auth/me", {
+>>>>>>> edcf0f03e512ea134731019dbc2e87f0b386082e
         headers: { Authorization: "Bearer " + token }
     })
         .then(res => {
