@@ -10,7 +10,7 @@
         }
 
         try {
-            const API_URL = "http://localhost:31245/api/auth/cliente"; 
+            const API_URL = "af7e3634a244f413d874c590d320c241-124017443.us-east-1.elb.amazonaws.com/api/auth/cliente"; 
 
             const response = await fetch(API_URL, {
                 method: 'POST',

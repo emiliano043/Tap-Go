@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewData["Title"]</title>
-    <link rel="stylesheet" href="~/css/cliente.css" />
+    <link rel="stylesheet" href="@Url.Content("~/css/cliente.css")">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <script src="~/js/cliente.js"></script>
@@ -23,22 +23,22 @@
         <!-- Barra lateral -->
         <div class="barra">
             <a class="tipo-btn" href="/Inicio">
-                <img src="/img/inicio.png" alt="Inicio" class="icono-btn" />Inicio
+                <img src="@Url.Content("~/img/Inicio.png")" alt="Inicio" class="icono-btn" />Inicio
             </a>
             <a class="tipo-btn" href="/Alimentos">
-                <img src="/img/hamburguesa.png" alt="Alimentos" class="icono-btn" />Alimentos
+                <img src="@Url.Content("~/img/hamburguesa.png")" alt="Alimentos" class="icono-btn" />Alimentos
             </a>
             <a class="tipo-btn" href="/Bebidas">
-                <img src="/img/soda.png" alt="Bebidas" class="icono-btn" />Bebidas
+                <img src="@Url.Content("~/img/soda.png")" alt="Bebidas" class="icono-btn" />Bebidas
             </a>
             <a class="tipo-btn" href="/Postres">
-                <img src="/img/helado.png" alt="Postres" class="icono-btn" />Postres
+                <img src="@Url.Content("~/img/helado.png")" alt="Postres" class="icono-btn" />Postres
             </a>
             <a class="tipo-btn" href="/Complementos">
-                <img src="/img/papas.png" alt="Complementos" class="icono-btn" />Complementos
+                <img src="@Url.Content("~/img/papas.png")" alt="Complementos" class="icono-btn" />Complementos
             </a>
             <a class="tipo-btn" href="/Carrito">
-                <img src="/img/carrito.png" alt="Carrito" class="icono-btn" />Carrito
+                <img src="@Url.Content("~/img/carrito.png")" alt="Carrito" class="icono-btn" />Carrito
             </a>      
         </div>
 

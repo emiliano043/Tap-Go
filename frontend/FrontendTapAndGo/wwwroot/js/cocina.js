@@ -3,7 +3,7 @@ let pedidosAnteriores = [];
 let carrusel = null; 
 let firmaAnterior = [];
 
-const API_URL = "http://localhost:31245/api/pedidos";
+const API_URL = "af7e3634a244f413d874c590d320c241-124017443.us-east-1.elb.amazonaws.com/api/pedidos";
 const sonidoNuevoPedido = new Audio("/sound/ding.mp3");
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function cargarPedidos() {
     const token = localStorage.getItem("token_cocina");
-    fetch("http://localhost:31245/api/pedidos", {
+    fetch("af7e3634a244f413d874c590d320c241-124017443.us-east-1.elb.amazonaws.com/api/pedidos", {
         headers: { Authorization: "Bearer " + token }
     })
         .then(res => res.json())
@@ -69,7 +69,7 @@ function renderPedidos(pedidos) {
 function actualizarEstado(id, estado) {
     const token = localStorage.getItem("token_cocina");
 
-    fetch(`http://localhost:31245/api/pedidos/${id}/estado`, {
+    fetch(`http://localhost:7034/api/pedidos/${id}/estado`, {
         method: "PUT",
         headers: {
             "Content-Type": "application/json",
@@ -161,7 +161,7 @@ async function actualizarCarrusel() {
     function marcarEntregado(id) {
     const token = localStorage.getItem("token_cocina");
 
-        fetch(`http://localhost:31245/api/pedidos/${id}/estado`, {
+        fetch(`af7e3634a244f413d874c590d320c241-124017443.us-east-1.elb.amazonaws.com/api/pedidos/${id}/estado`, {
         method: "PUT",
         headers: {
             "Content-Type": "application/json",

@@ -4,7 +4,7 @@
 
         const email = document.getElementById('email').value.trim();
         const password = document.getElementById('password').value.trim();
-        const API_BASE_URL = "http://localhost:31245/api";
+        const API_BASE_URL = "http://af7e3634a244f413d874c590d320c241-124017443.us-east-1.elb.amazonaws.com/api";
 
         try {
             const res = await fetch(`${API_BASE_URL}/auth/login`, {

@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewData["Title"]</title>
-    <link rel="stylesheet" href="~/css/perfil.css" />
+    <link rel="stylesheet" href="@Url.Content("~/css/perfil.css")">
 </head>
 
 
@@ -21,7 +21,7 @@
 
             <div class="header-left">
                 <a href="javascript:void(0);" onclick="redirigirSegunRol()">
-                    <img src="~/img/TapAndGo-Logo.png" alt="Tap And Go Logo" class="logo" />
+                    <img src="@Url.Content("~/img/TapAndGo-Logo.png") alt="Tap And Go Logo" class="logo" />
                 </a>
             </div>
 
@@ -29,14 +29,14 @@
 
             <div class="header-right">
                 <a href="/Perfil">
-                    <img src="~/img/User-Icon.png" alt="Usuario" class="icono anim-hover" />
+                    <img src="@Url.Content("~/img/User-Icon.png") alt="Usuario" class="icono anim-hover" />
                 </a>
                 <a href="#" id="notificaciones">
-                    <img src="~/img/Notification-Icon.png" alt="Notificaciones" class="icono anim-hover" />
+                    <img src="@Url.Content("~/img/Notification-Icon.png") alt="Notificaciones" class="icono anim-hover" />
                 </a>
 
                 <a href="/Login" id="logout-button">
-                    <img src="~/img/Logout-Icon.png" alt="Cerrar sesión" class="icono anim-hover" />
+                    <img src="@Url.Content("~/img/Logout-Icon.png") alt="Cerrar sesión" class="icono anim-hover" />
                 </a>
             </div>
 
@@ -83,7 +83,7 @@
     });
 
     // Usuario loggeado (solo uno)
-    fetch("http://localhost:31245/api/auth/me", {
+    fetch("http://af7e3634a244f413d874c590d320c241-124017443.us-east-1.elb.amazonaws.com/api/auth/me", {
         headers: { Authorization: "Bearer " + token }
     })
         .then(res => {

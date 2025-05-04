@@ -28,8 +28,8 @@
 
         const id = document.getElementById("productoId").value;
         const url = id
-            ? `http://localhost:31245/api/menu/${id}`
-            : "http://localhost:31245/api/menu";
+            ? `af7e3634a244f413d874c590d320c241-124017443.us-east-1.elb.amazonaws.com/api/menu/${id}`
+            : "af7e3634a244f413d874c590d320c241-124017443.us-east-1.elb.amazonaws.com/api/menu";
         const method = id ? "PUT" : "POST";
 
         const res = await fetch(url, {
@@ -62,7 +62,7 @@
 
 async function cargarProductos() {
     const token = localStorage.getItem("token_admin");
-    const res = await fetch("http://localhost:31245/api/menu", {
+    const res = await fetch("af7e3634a244f413d874c590d320c241-124017443.us-east-1.elb.amazonaws.com/api/menu", {
         headers: { Authorization: "Bearer " + token }
     });
     const data = await res.json();
@@ -101,7 +101,7 @@ async function eliminarProducto(id) {
     const token = localStorage.getItem("token_admin");
     if (!confirm("¿Deseas eliminar este producto?")) return;
 
-    const res = await fetch(`http://localhost:31245/api/menu/${id}`, {
+    const res = await fetch(`af7e3634a244f413d874c590d320c241-124017443.us-east-1.elb.amazonaws.com/api/menu/${id}`, {
         method: "DELETE",
         headers: { Authorization: "Bearer " + token }
     });
@@ -116,7 +116,7 @@ async function eliminarProducto(id) {
 
 async function editarProducto(id) {
     const token = localStorage.getItem("token_admin");
-    const res = await fetch(`http://localhost:31245/api/menu`, {
+    const res = await fetch(`af7e3634a244f413d874c590d320c241-124017443.us-east-1.elb.amazonaws.com/api/menu`, {
         headers: { Authorization: "Bearer " + token }
     });
     const productos = await res.json();

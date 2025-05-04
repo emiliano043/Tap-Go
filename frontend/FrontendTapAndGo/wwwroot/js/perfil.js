@@ -24,7 +24,7 @@
             return;
         }
 
-        const res = await fetch("http://localhost:31245/api/auth/me/password", {
+        const res = await fetch("af7e3634a244f413d874c590d320c241-124017443.us-east-1.elb.amazonaws.com/api/auth/me/password", {
             method: "PUT",
             headers: {
                 "Content-Type": "application/json",

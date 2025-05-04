@@ -27,8 +27,8 @@
 
         const id = usuarioId.value;
         const url = id
-            ? `http://localhost:31245/api/auth/users/${id}`
-            : `http://localhost:31245/api/auth/register`;
+            ? `af7e3634a244f413d874c590d320c241-124017443.us-east-1.elb.amazonaws.com/api/auth/users/${id}`
+            : `af7e3634a244f413d874c590d320c241-124017443.us-east-1.elb.amazonaws.com/api/auth/register`;
         const method = id ? "PUT" : "POST";
 
         const res = await fetch(url, {
@@ -60,7 +60,7 @@
 
 async function cargarUsuarios() {
     const token = localStorage.getItem("token_admin");
-    const res = await fetch("http://localhost:31245/api/auth/users", {
+    const res = await fetch("af7e3634a244f413d874c590d320c241-124017443.us-east-1.elb.amazonaws.com/api/auth/users", {
         headers: { Authorization: "Bearer " + token }
     });
     const usuarios = await res.json();
@@ -111,7 +111,7 @@ async function eliminarUsuario(id, email) {
 
     if (!confirm.isConfirmed) return;
 
-    const res = await fetch(`http://localhost:31245/api/auth/users/${id}`, {
+    const res = await fetch(`af7e3634a244f413d874c590d320c241-124017443.us-east-1.elb.amazonaws.com/api/auth/users/${id}`, {
         method: "DELETE",
         headers: { Authorization: "Bearer " + token }
     });
@@ -127,7 +127,7 @@ async function eliminarUsuario(id, email) {
 
 async function editarUsuario(id) {
     const token = localStorage.getItem("token_admin");
-    const res = await fetch("http://localhost:31245/api/auth/users", {
+    const res = await fetch("af7e3634a244f413d874c590d320c241-124017443.us-east-1.elb.amazonaws.com/api/auth/users", {
         headers: { Authorization: "Bearer " + token }
     });
     const usuarios = await res.json();

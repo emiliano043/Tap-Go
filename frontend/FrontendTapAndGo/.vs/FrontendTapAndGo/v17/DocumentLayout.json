@@ -1,69 +1,138 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\",
+  "WorkspaceRootPath": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\emili\\downloads\\tap-go\\frontend\\frontendtapandgo\\wwwroot\\js\\admin.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:wwwroot\\js\\admin.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\beliel\\desktop\\app local\\frontend\\frontendtapandgo\\wwwroot\\js\\cliente.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:wwwroot\\js\\cliente.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\emili\\downloads\\tap-go\\frontend\\frontendtapandgo\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\beliel\\desktop\\app local\\frontend\\frontendtapandgo\\wwwroot\\js\\api.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:wwwroot\\js\\api.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\emili\\downloads\\tap-go\\frontend\\frontendtapandgo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\emili\\downloads\\tap-go\\frontend\\frontendtapandgo\\wwwroot\\js\\cocina.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:wwwroot\\js\\cocina.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\emili\\downloads\\tap-go\\frontend\\frontendtapandgo\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\obj\\FrontendTapAndGo.csproj.nuget.g.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\FrontendTapAndGo.csproj.nuget.g.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\emili\\downloads\\tap-go\\frontend\\frontendtapandgo\\wwwroot\\js\\ticketpago.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:wwwroot\\js\\ticketpago.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\emili\\downloads\\tap-go\\frontend\\frontendtapandgo\\wwwroot\\js\\carrito-helper.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:wwwroot\\js\\carrito-helper.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\emili\\downloads\\tap-go\\frontend\\frontendtapandgo\\wwwroot\\js\\carrito.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:wwwroot\\js\\carrito.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\emili\\downloads\\tap-go\\frontend\\frontendtapandgo\\pages\\carrito.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:pages\\carrito.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\emili\\downloads\\tap-go\\frontend\\frontendtapandgo\\pages\\cocina.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:pages\\cocina.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\emili\\downloads\\tap-go\\frontend\\frontendtapandgo\\wwwroot\\js\\usuarios.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\beliel\\desktop\\app local\\frontend\\frontendtapandgo\\wwwroot\\js\\usuarios.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:wwwroot\\js\\usuarios.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\emili\\downloads\\tap-go\\frontend\\frontendtapandgo\\wwwroot\\js\\productos.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\beliel\\desktop\\app local\\frontend\\frontendtapandgo\\wwwroot\\js\\ticketpago.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:wwwroot\\js\\ticketpago.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\beliel\\desktop\\app local\\frontend\\frontendtapandgo\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\beliel\\desktop\\app local\\frontend\\frontendtapandgo\\wwwroot\\js\\productos.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:wwwroot\\js\\productos.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\emili\\downloads\\tap-go\\frontend\\frontendtapandgo\\pages\\productos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:pages\\productos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\beliel\\desktop\\app local\\frontend\\frontendtapandgo\\wwwroot\\js\\postres.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:wwwroot\\js\\postres.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\emili\\downloads\\tap-go\\frontend\\frontendtapandgo\\pages\\productosconfig.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:pages\\productosconfig.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\beliel\\desktop\\app local\\frontend\\frontendtapandgo\\wwwroot\\js\\perfil.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:wwwroot\\js\\perfil.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\beliel\\desktop\\app local\\frontend\\frontendtapandgo\\wwwroot\\js\\notificaciones.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:wwwroot\\js\\notificaciones.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\beliel\\desktop\\app local\\frontend\\frontendtapandgo\\wwwroot\\js\\metodopago.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:wwwroot\\js\\metodopago.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\beliel\\desktop\\app local\\frontend\\frontendtapandgo\\wwwroot\\js\\logout.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:wwwroot\\js\\logout.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\beliel\\desktop\\app local\\frontend\\frontendtapandgo\\wwwroot\\js\\logincliente.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:wwwroot\\js\\logincliente.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\beliel\\desktop\\app local\\frontend\\frontendtapandgo\\wwwroot\\js\\complementos.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:wwwroot\\js\\complementos.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\beliel\\desktop\\app local\\frontend\\frontendtapandgo\\wwwroot\\js\\cocina.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:wwwroot\\js\\cocina.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\beliel\\desktop\\app local\\frontend\\frontendtapandgo\\wwwroot\\js\\carrito-helper.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:wwwroot\\js\\carrito-helper.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\beliel\\desktop\\app local\\frontend\\frontendtapandgo\\wwwroot\\js\\carrito.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:wwwroot\\js\\carrito.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\beliel\\desktop\\app local\\frontend\\frontendtapandgo\\wwwroot\\js\\bebidas.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:wwwroot\\js\\bebidas.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\beliel\\desktop\\app local\\frontend\\frontendtapandgo\\wwwroot\\js\\auth-guard.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:wwwroot\\js\\auth-guard.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\beliel\\desktop\\app local\\frontend\\frontendtapandgo\\wwwroot\\js\\auth.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:wwwroot\\js\\auth.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\beliel\\desktop\\app local\\frontend\\frontendtapandgo\\wwwroot\\js\\alimentos.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:wwwroot\\js\\alimentos.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\beliel\\desktop\\app local\\frontend\\frontendtapandgo\\wwwroot\\js\\admin.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:wwwroot\\js\\admin.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\beliel\\desktop\\app local\\frontend\\frontendtapandgo\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\beliel\\desktop\\app local\\frontend\\frontendtapandgo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\beliel\\desktop\\app local\\frontend\\frontendtapandgo\\pages\\postres.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:pages\\postres.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\beliel\\desktop\\app local\\frontend\\frontendtapandgo\\pages\\complementos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:pages\\complementos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\beliel\\desktop\\app local\\frontend\\frontendtapandgo\\pages\\bebidas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:pages\\bebidas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\beliel\\desktop\\app local\\frontend\\frontendtapandgo\\pages\\alimentos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:pages\\alimentos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\beliel\\desktop\\app local\\frontend\\frontendtapandgo\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\beliel\\desktop\\app local\\frontend\\frontendtapandgo\\pages\\shared\\_layoutperfil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:pages\\shared\\_layoutperfil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\beliel\\desktop\\app local\\frontend\\frontendtapandgo\\pages\\shared\\_layoutcocina.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:pages\\shared\\_layoutcocina.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\beliel\\desktop\\app local\\frontend\\frontendtapandgo\\pages\\shared\\_layoutcliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:pages\\shared\\_layoutcliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\beliel\\desktop\\app local\\frontend\\frontendtapandgo\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|c:\\users\\beliel\\desktop\\app local\\frontend\\frontendtapandgo\\pages\\inicio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56676E9B-AC06-4BCE-9A5D-0EDCC6B31B97}|FrontendTapAndGo.csproj|solutionrelative:pages\\inicio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -73,203 +142,435 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 14,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "admin.js",
-              "DocumentMoniker": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\admin.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\admin.js",
-              "ToolTip": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\admin.js",
-              "RelativeToolTip": "wwwroot\\js\\admin.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-05-01T03:13:38.771Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\Pages\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Pages\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\Pages\\_ViewImports.cshtml",
-              "RelativeToolTip": "Pages\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T03:13:26.966Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T03:13:18.797Z",
+              "Title": "usuarios.js",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\wwwroot\\js\\usuarios.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\usuarios.js",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\wwwroot\\js\\usuarios.js",
+              "RelativeToolTip": "wwwroot\\js\\usuarios.js",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAAAIEAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-04T02:06:13.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ticketpago.js",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\wwwroot\\js\\ticketpago.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\ticketpago.js",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\wwwroot\\js\\ticketpago.js",
+              "RelativeToolTip": "wwwroot\\js\\ticketpago.js",
+              "ViewState": "AgIAABEAAAAAAAAAAADwvxcAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-04T02:06:05.424Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAUAAAAAAAAAAADgvxAAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-01T02:22:04.758Z"
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-04T02:06:03.488Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Microsoft.PackageDependencyResolution.targets",
-              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
-              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
-              "ViewState": "AgIAAAQBAAAAAAAAAAAowBABAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-05-01T02:21:40.176Z"
+              "Title": "productos.js",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\wwwroot\\js\\productos.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\productos.js",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\wwwroot\\js\\productos.js",
+              "RelativeToolTip": "wwwroot\\js\\productos.js",
+              "ViewState": "AgIAAIcAAAAAAAAAAADwv3YAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-04T02:05:22.764Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "FrontendTapAndGo.csproj.nuget.g.props",
-              "DocumentMoniker": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\obj\\FrontendTapAndGo.csproj.nuget.g.props",
-              "RelativeDocumentMoniker": "obj\\FrontendTapAndGo.csproj.nuget.g.props",
-              "ToolTip": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\obj\\FrontendTapAndGo.csproj.nuget.g.props",
-              "RelativeToolTip": "obj\\FrontendTapAndGo.csproj.nuget.g.props",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-05-01T02:21:35.69Z"
+              "Title": "postres.js",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\wwwroot\\js\\postres.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\postres.js",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\wwwroot\\js\\postres.js",
+              "RelativeToolTip": "wwwroot\\js\\postres.js",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAYwAEAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-04T02:05:08.953Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "ticketpago.js",
-              "DocumentMoniker": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\ticketpago.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\ticketpago.js",
-              "ToolTip": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\ticketpago.js",
-              "RelativeToolTip": "wwwroot\\js\\ticketpago.js",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwB4AAAAkAAAAAAAAAA==",
+              "Title": "perfil.js",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\wwwroot\\js\\perfil.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\perfil.js",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\wwwroot\\js\\perfil.js",
+              "RelativeToolTip": "wwwroot\\js\\perfil.js",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAABoAAABnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-04-30T01:31:20.725Z"
+              "WhenOpened": "2025-05-04T02:04:57.583Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "carrito-helper.js",
-              "DocumentMoniker": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\carrito-helper.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\carrito-helper.js",
-              "ToolTip": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\carrito-helper.js",
-              "RelativeToolTip": "wwwroot\\js\\carrito-helper.js",
-              "ViewState": "AgIAAHUAAAAAAAAAAAAowGgAAAAwAAAAAAAAAA==",
+              "Title": "notificaciones.js",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\wwwroot\\js\\notificaciones.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\notificaciones.js",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\wwwroot\\js\\notificaciones.js",
+              "RelativeToolTip": "wwwroot\\js\\notificaciones.js",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-04-30T01:30:55.941Z"
+              "WhenOpened": "2025-05-04T02:04:54.725Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "carrito.js",
-              "DocumentMoniker": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\carrito.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\carrito.js",
-              "ToolTip": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\carrito.js",
-              "RelativeToolTip": "wwwroot\\js\\carrito.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA0AAAAAAAAAA==",
+              "Title": "metodopago.js",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\wwwroot\\js\\metodopago.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\metodopago.js",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\wwwroot\\js\\metodopago.js",
+              "RelativeToolTip": "wwwroot\\js\\metodopago.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-04-30T01:30:39.797Z"
+              "WhenOpened": "2025-05-04T02:04:51.524Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "Carrito.cshtml",
-              "DocumentMoniker": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\Pages\\Carrito.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Carrito.cshtml",
-              "ToolTip": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\Pages\\Carrito.cshtml",
-              "RelativeToolTip": "Pages\\Carrito.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-30T01:30:34.465Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "cocina.js",
-              "DocumentMoniker": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\cocina.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\cocina.js",
-              "ToolTip": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\cocina.js",
-              "RelativeToolTip": "wwwroot\\js\\cocina.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA3AAAAAAAAAA==",
+              "Title": "logout.js",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\wwwroot\\js\\logout.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\logout.js",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\wwwroot\\js\\logout.js",
+              "RelativeToolTip": "wwwroot\\js\\logout.js",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-04-30T01:15:23.471Z",
+              "WhenOpened": "2025-05-04T02:04:48.732Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "Cocina.cshtml",
-              "DocumentMoniker": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\Pages\\Cocina.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Cocina.cshtml",
-              "ToolTip": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\Pages\\Cocina.cshtml",
-              "RelativeToolTip": "Pages\\Cocina.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-30T01:15:12.663Z"
+              "Title": "logincliente.js",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\wwwroot\\js\\logincliente.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\logincliente.js",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\wwwroot\\js\\logincliente.js",
+              "RelativeToolTip": "wwwroot\\js\\logincliente.js",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAAAwAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-04T02:04:39.105Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "usuarios.js",
-              "DocumentMoniker": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\usuarios.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\usuarios.js",
-              "ToolTip": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\usuarios.js",
-              "RelativeToolTip": "wwwroot\\js\\usuarios.js",
-              "ViewState": "AgIAAGIAAAAAAAAAAAApwHoAAABHAAAAAAAAAA==",
+              "Title": "complementos.js",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\wwwroot\\js\\complementos.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\complementos.js",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\wwwroot\\js\\complementos.js",
+              "RelativeToolTip": "wwwroot\\js\\complementos.js",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-04-30T01:04:21.71Z"
+              "WhenOpened": "2025-05-04T02:04:29.347Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "productos.js",
-              "DocumentMoniker": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\productos.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\productos.js",
-              "ToolTip": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\wwwroot\\js\\productos.js",
-              "RelativeToolTip": "wwwroot\\js\\productos.js",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAawB4AAAApAAAAAAAAAA==",
+              "Title": "cocina.js",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\wwwroot\\js\\cocina.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\cocina.js",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\wwwroot\\js\\cocina.js",
+              "RelativeToolTip": "wwwroot\\js\\cocina.js",
+              "ViewState": "AgIAAL4AAAAAAAAAAAAkwKMAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-04-30T00:51:06.691Z"
+              "WhenOpened": "2025-05-04T02:03:57.557Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ProductosConfig.cshtml",
-              "DocumentMoniker": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\Pages\\ProductosConfig.cshtml",
-              "RelativeDocumentMoniker": "Pages\\ProductosConfig.cshtml",
-              "ToolTip": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\Pages\\ProductosConfig.cshtml",
-              "RelativeToolTip": "Pages\\ProductosConfig.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-30T00:50:49.214Z"
+              "DocumentIndex": 0,
+              "Title": "cliente.js",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\wwwroot\\js\\cliente.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\cliente.js",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\wwwroot\\js\\cliente.js",
+              "RelativeToolTip": "wwwroot\\js\\cliente.js",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-04T02:03:51.592Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "Productos.cshtml",
-              "DocumentMoniker": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\Pages\\Productos.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Productos.cshtml",
-              "ToolTip": "C:\\Users\\emili\\Downloads\\Tap-Go\\frontend\\FrontendTapAndGo\\Pages\\Productos.cshtml",
-              "RelativeToolTip": "Pages\\Productos.cshtml",
+              "Title": "carrito-helper.js",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\wwwroot\\js\\carrito-helper.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\carrito-helper.js",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\wwwroot\\js\\carrito-helper.js",
+              "RelativeToolTip": "wwwroot\\js\\carrito-helper.js",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAAAFIAAABxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-04T02:03:30.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "carrito.js",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\wwwroot\\js\\carrito.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\carrito.js",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\wwwroot\\js\\carrito.js",
+              "RelativeToolTip": "wwwroot\\js\\carrito.js",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAA8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-04T02:03:20.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "bebidas.js",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\wwwroot\\js\\bebidas.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\bebidas.js",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\wwwroot\\js\\bebidas.js",
+              "RelativeToolTip": "wwwroot\\js\\bebidas.js",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAYwAEAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-04T02:03:01.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "auth-guard.js",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\wwwroot\\js\\auth-guard.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\auth-guard.js",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\wwwroot\\js\\auth-guard.js",
+              "RelativeToolTip": "wwwroot\\js\\auth-guard.js",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-04T02:02:38.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "alimentos.js",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\wwwroot\\js\\alimentos.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\alimentos.js",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\wwwroot\\js\\alimentos.js",
+              "RelativeToolTip": "wwwroot\\js\\alimentos.js",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAYwAEAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-04T02:00:57.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "api.js",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\wwwroot\\js\\api.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\api.js",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\wwwroot\\js\\api.js",
+              "RelativeToolTip": "wwwroot\\js\\api.js",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-04T02:00:36.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAowI0AAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-04T01:57:19.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "admin.js",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\wwwroot\\js\\admin.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\admin.js",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\wwwroot\\js\\admin.js",
+              "RelativeToolTip": "wwwroot\\js\\admin.js",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-04T01:52:11.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T22:59:33.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Complementos.cshtml",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\Pages\\Complementos.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Complementos.cshtml",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\Pages\\Complementos.cshtml",
+              "RelativeToolTip": "Pages\\Complementos.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-30T00:50:44.429Z"
+              "WhenOpened": "2025-05-03T16:38:30.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Alimentos.cshtml",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\Pages\\Alimentos.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Alimentos.cshtml",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\Pages\\Alimentos.cshtml",
+              "RelativeToolTip": "Pages\\Alimentos.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T16:38:26.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Bebidas.cshtml",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\Pages\\Bebidas.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Bebidas.cshtml",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\Pages\\Bebidas.cshtml",
+              "RelativeToolTip": "Pages\\Bebidas.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T16:38:08.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Postres.cshtml",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\Pages\\Postres.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Postres.cshtml",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\Pages\\Postres.cshtml",
+              "RelativeToolTip": "Pages\\Postres.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T16:37:14.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T16:32:10.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "_LayoutPerfil.cshtml",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\Pages\\Shared\\_LayoutPerfil.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_LayoutPerfil.cshtml",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\Pages\\Shared\\_LayoutPerfil.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_LayoutPerfil.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T16:32:08.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "_LayoutCocina.cshtml",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\Pages\\Shared\\_LayoutCocina.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_LayoutCocina.cshtml",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\Pages\\Shared\\_LayoutCocina.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_LayoutCocina.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T16:32:04.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "_LayoutCliente.cshtml",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\Pages\\Shared\\_LayoutCliente.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_LayoutCliente.cshtml",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\Pages\\Shared\\_LayoutCliente.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_LayoutCliente.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T16:31:57.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "auth.js",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\wwwroot\\js\\auth.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\auth.js",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\wwwroot\\js\\auth.js",
+              "RelativeToolTip": "wwwroot\\js\\auth.js",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAAkAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-03T16:28:17.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\Pages\\Login.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\Pages\\Login.cshtml",
+              "RelativeToolTip": "Pages\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T16:27:50.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Inicio.cshtml",
+              "DocumentMoniker": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\Pages\\Inicio.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Inicio.cshtml",
+              "ToolTip": "C:\\Users\\Beliel\\Desktop\\App Local\\frontend\\FrontendTapAndGo\\Pages\\Inicio.cshtml",
+              "RelativeToolTip": "Pages\\Inicio.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T15:30:42.152Z"
             }
           ]
         }
