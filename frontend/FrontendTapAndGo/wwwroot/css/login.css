@@ -25,7 +25,7 @@
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 50px 10px 30px rgba(0.5, 0.5, 0.5, 0.5);
-    border: 2px groove #80808040;
+    border: 2px groove #8040;
 }
 
 .login-form {

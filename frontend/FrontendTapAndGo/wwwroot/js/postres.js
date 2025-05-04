@@ -1,5 +1,9 @@
 ﻿document.addEventListener("DOMContentLoaded", async function () {
+<<<<<<< HEAD
     const API_URL = "af7e3634a244f413d874c590d320c241-124017443.us-east-1.elb.amazonaws.com/api/menu";
+=======
+    const API_URL = "http://a79ae1b393e2246f5813f8c16a8028b9-123841045.us-east-1.elb.amazonaws.com/api/menu";
+>>>>>>> edcf0f03e512ea134731019dbc2e87f0b386082e
 
     try {
         const res = await fetch(API_URL);

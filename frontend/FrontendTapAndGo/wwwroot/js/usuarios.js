@@ -27,8 +27,13 @@
 
         const id = usuarioId.value;
         const url = id
+<<<<<<< HEAD
             ? `af7e3634a244f413d874c590d320c241-124017443.us-east-1.elb.amazonaws.com/api/auth/users/${id}`
             : `af7e3634a244f413d874c590d320c241-124017443.us-east-1.elb.amazonaws.com/api/auth/register`;
+=======
+            ? `http://a79ae1b393e2246f5813f8c16a8028b9-123841045.us-east-1.elb.amazonaws.com/api/auth/users/${id}`
+            : `http://a79ae1b393e2246f5813f8c16a8028b9-123841045.us-east-1.elb.amazonaws.com/api/auth/register`;
+>>>>>>> edcf0f03e512ea134731019dbc2e87f0b386082e
         const method = id ? "PUT" : "POST";
 
         const res = await fetch(url, {
@@ -60,7 +65,11 @@
 
 async function cargarUsuarios() {
     const token = localStorage.getItem("token_admin");
+<<<<<<< HEAD
     const res = await fetch("af7e3634a244f413d874c590d320c241-124017443.us-east-1.elb.amazonaws.com/api/auth/users", {
+=======
+    const res = await fetch("http://a79ae1b393e2246f5813f8c16a8028b9-123841045.us-east-1.elb.amazonaws.com/api/auth/users", {
+>>>>>>> edcf0f03e512ea134731019dbc2e87f0b386082e
         headers: { Authorization: "Bearer " + token }
     });
     const usuarios = await res.json();
@@ -111,7 +120,11 @@ async function eliminarUsuario(id, email) {
 
     if (!confirm.isConfirmed) return;
 
+<<<<<<< HEAD
     const res = await fetch(`af7e3634a244f413d874c590d320c241-124017443.us-east-1.elb.amazonaws.com/api/auth/users/${id}`, {
+=======
+    const res = await fetch(`http://a79ae1b393e2246f5813f8c16a8028b9-123841045.us-east-1.elb.amazonaws.com/api/auth/users/${id}`, {
+>>>>>>> edcf0f03e512ea134731019dbc2e87f0b386082e
         method: "DELETE",
         headers: { Authorization: "Bearer " + token }
     });
@@ -127,7 +140,11 @@ async function eliminarUsuario(id, email) {
 
 async function editarUsuario(id) {
     const token = localStorage.getItem("token_admin");
+<<<<<<< HEAD
     const res = await fetch("af7e3634a244f413d874c590d320c241-124017443.us-east-1.elb.amazonaws.com/api/auth/users", {
+=======
+    const res = await fetch("http://a79ae1b393e2246f5813f8c16a8028b9-123841045.us-east-1.elb.amazonaws.com/api/auth/users", {
+>>>>>>> edcf0f03e512ea134731019dbc2e87f0b386082e
         headers: { Authorization: "Bearer " + token }
     });
     const usuarios = await res.json();

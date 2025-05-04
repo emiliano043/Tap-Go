@@ -28,8 +28,13 @@
 
         const id = document.getElementById("productoId").value;
         const url = id
+<<<<<<< HEAD
             ? `af7e3634a244f413d874c590d320c241-124017443.us-east-1.elb.amazonaws.com/api/menu/${id}`
             : "af7e3634a244f413d874c590d320c241-124017443.us-east-1.elb.amazonaws.com/api/menu";
+=======
+            ? `http://a79ae1b393e2246f5813f8c16a8028b9-123841045.us-east-1.elb.amazonaws.com/api/menu/${id}`
+            : "http://a79ae1b393e2246f5813f8c16a8028b9-123841045.us-east-1.elb.amazonaws.com/api/menu";
+>>>>>>> edcf0f03e512ea134731019dbc2e87f0b386082e
         const method = id ? "PUT" : "POST";
 
         const res = await fetch(url, {
@@ -62,7 +67,11 @@
 
 async function cargarProductos() {
     const token = localStorage.getItem("token_admin");
+<<<<<<< HEAD
     const res = await fetch("af7e3634a244f413d874c590d320c241-124017443.us-east-1.elb.amazonaws.com/api/menu", {
+=======
+    const res = await fetch("http://a79ae1b393e2246f5813f8c16a8028b9-123841045.us-east-1.elb.amazonaws.com/api/menu", {
+>>>>>>> edcf0f03e512ea134731019dbc2e87f0b386082e
         headers: { Authorization: "Bearer " + token }
     });
     const data = await res.json();
@@ -101,7 +110,11 @@ async function eliminarProducto(id) {
     const token = localStorage.getItem("token_admin");
     if (!confirm("¿Deseas eliminar este producto?")) return;
 
+<<<<<<< HEAD
     const res = await fetch(`af7e3634a244f413d874c590d320c241-124017443.us-east-1.elb.amazonaws.com/api/menu/${id}`, {
+=======
+    const res = await fetch(`http://a79ae1b393e2246f5813f8c16a8028b9-123841045.us-east-1.elb.amazonaws.com/api/menu/${id}`, {
+>>>>>>> edcf0f03e512ea134731019dbc2e87f0b386082e
         method: "DELETE",
         headers: { Authorization: "Bearer " + token }
     });
@@ -116,7 +129,11 @@ async function eliminarProducto(id) {
 
 async function editarProducto(id) {
     const token = localStorage.getItem("token_admin");
+<<<<<<< HEAD
     const res = await fetch(`af7e3634a244f413d874c590d320c241-124017443.us-east-1.elb.amazonaws.com/api/menu`, {
+=======
+    const res = await fetch(`http://a79ae1b393e2246f5813f8c16a8028b9-123841045.us-east-1.elb.amazonaws.com/api/menu`, {
+>>>>>>> edcf0f03e512ea134731019dbc2e87f0b386082e
         headers: { Authorization: "Bearer " + token }
     });
     const productos = await res.json();
